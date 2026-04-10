@@ -35,8 +35,8 @@
 
 ### Streamlit Demo 界面
 
-![streamlit demo 1](assets/streamlit_pic_1.png)
-![streamlit demo 2](assets/streamlit_pic_2.png)
+![streamlit demo 1](assets/streamlit_pic_1.jpg)
+![streamlit demo 2](assets/streamlit_pic_2.jpg)
 
 ### 图片检测
 
