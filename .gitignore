@@ -1,0 +1,26 @@
+# 模型权重
+*.pt
+*.onnx
+
+# 数据集
+VOCdevkit/
+data/
+*.tar
+*.tar.gz
+
+# 训练输出
+runs/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 记录文件
+output_record.txt
+error_record.txt
+*.ipynb
+
+# 系统
+.DS_Store
+Thumbs.db
