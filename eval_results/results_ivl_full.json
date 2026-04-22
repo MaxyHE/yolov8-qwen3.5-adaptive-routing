@@ -1,0 +1,245 @@
+{
+  "model": "InternVL2-1B",
+  "mode": "full",
+  "acc": 65.74,
+  "total_boxes": 1334,
+  "avg_ms_per_crop": 196.0,
+  "vram_gb": 1.76,
+  "confusion": {
+    "tvmonitor": {
+      "tvmonitor": 13,
+      "bottle": 1,
+      "sofa": 1,
+      "pottedplant": 1,
+      "person": 5,
+      "chair": 2,
+      "car": 1
+    },
+    "bus": {
+      "person": 63,
+      "train": 9,
+      "bus": 6,
+      "bicycle": 1,
+      "car": 20,
+      "boat": 8,
+      "bottle": 3,
+      "horse": 1,
+      "pottedplant": 3,
+      "aeroplane": 1,
+      "chair": 2,
+      "diningtable": 1
+    },
+    "motorbike": {
+      "boat": 6,
+      "car": 8,
+      "person": 59,
+      "motorbike": 29,
+      "tvmonitor": 2,
+      "chair": 5,
+      "bird": 1,
+      "bottle": 5,
+      "bicycle": 3,
+      "diningtable": 1,
+      "horse": 2,
+      "aeroplane": 2
+    },
+    "cow": {
+      "cow": 13,
+      "car": 5,
+      "horse": 1
+    },
+    "airplane": {
+      "aeroplane": 14,
+      "car": 2,
+      "person": 4
+    },
+    "dog": {
+      "dog": 50,
+      "person": 26,
+      "sheep": 3,
+      "sofa": 9,
+      "chair": 2,
+      "horse": 1,
+      "bottle": 1,
+      "pottedplant": 1
+    },
+    "car": {
+      "car": 62,
+      "person": 24,
+      "motorbike": 4,
+      "bottle": 2,
+      "aeroplane": 1,
+      "cow": 4,
+      "bus": 1
+    },
+    "diningtable": {
+      "bottle": 24,
+      "person": 121,
+      "diningtable": 48,
+      "chair": 50,
+      "pottedplant": 9,
+      "sofa": 2,
+      "boat": 1,
+      "dog": 1
+    },
+    "bottle": {
+      "bottle": 42,
+      "person": 46,
+      "chair": 12,
+      "tvmonitor": 2,
+      "diningtable": 2,
+      "sofa": 3,
+      "dog": 1,
+      "pottedplant": 1
+    },
+    "chair": {
+      "diningtable": 33,
+      "chair": 120,
+      "pottedplant": 15,
+      "person": 162,
+      "bottle": 12,
+      "sofa": 36,
+      "dog": 7,
+      "tvmonitor": 9,
+      "cat": 3,
+      "bicycle": 1,
+      "car": 5,
+      "boat": 1
+    },
+    "person": {
+      "car": 14,
+      "person": 300,
+      "bicycle": 6,
+      "dog": 2,
+      "boat": 5,
+      "chair": 25,
+      "aeroplane": 3,
+      "diningtable": 4,
+      "pottedplant": 16,
+      "cat": 1,
+      "bottle": 8,
+      "sofa": 2,
+      "tvmonitor": 2,
+      "train": 1,
+      "bird": 2,
+      "bus": 1
+    },
+    "bicycle": {
+      "car": 16,
+      "person": 108,
+      "bicycle": 37,
+      "motorbike": 17,
+      "sheep": 1,
+      "chair": 4,
+      "pottedplant": 3,
+      "cat": 3,
+      "bird": 2,
+      "bottle": 8,
+      "aeroplane": 2,
+      "dog": 2,
+      "horse": 1,
+      "diningtable": 3,
+      "train": 1,
+      "boat": 11,
+      "bus": 2
+    },
+    "bird": {
+      "bird": 23,
+      "horse": 1,
+      "sheep": 1,
+      "sofa": 1,
+      "pottedplant": 7,
+      "person": 7,
+      "chair": 3
+    },
+    "cat": {
+      "cat": 39,
+      "chair": 2,
+      "person": 6,
+      "sofa": 2,
+      "pottedplant": 1
+    },
+    "horse": {
+      "horse": 24,
+      "person": 11,
+      "car": 5,
+      "cow": 1
+    },
+    "sheep": {
+      "sheep": 2
+    },
+    "boat": {
+      "boat": 38,
+      "person": 31,
+      "aeroplane": 1
+    },
+    "sofa": {
+      "sofa": 8,
+      "chair": 1,
+      "person": 4,
+      "pottedplant": 3,
+      "dog": 1
+    },
+    "train": {
+      "train": 9,
+      "person": 2,
+      "pottedplant": 1
+    },
+    "baby": {
+      "person": 8,
+      "sofa": 1,
+      "chair": 1,
+      "bottle": 1
+    },
+    "pottedplant": {
+      "pottedplant": 14,
+      "person": 4,
+      "cat": 4,
+      "tvmonitor": 1,
+      "chair": 3,
+      "dog": 3,
+      "bottle": 3
+    },
+    "motorcycle": {
+      "motorbike": 2
+    },
+    "police officer": {
+      "person": 1
+    },
+    "boy scouts": {
+      "person": 1
+    },
+    "girl": {
+      "person": 2,
+      "bottle": 1,
+      "chair": 1
+    },
+    "band": {
+      "person": 1
+    },
+    "saxophone player": {
+      "person": 1
+    },
+    "dinnertable": {
+      "person": 3,
+      "bottle": 1
+    },
+    "child": {
+      "person": 2
+    },
+    "bass guitar": {
+      "person": 1
+    },
+    "musician": {
+      "bottle": 1,
+      "person": 1
+    },
+    "bride and groom": {
+      "person": 1,
+      "pottedplant": 1
+    },
+    "dine table": {
+      "person": 1
+    }
+  }
+}

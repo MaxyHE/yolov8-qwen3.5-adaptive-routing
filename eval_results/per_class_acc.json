@@ -1,0 +1,142 @@
+{
+  "aeroplane": {
+    "yolo": 54.2,
+    "qwen_adaptive": 54.2,
+    "qwen_full": 62.5,
+    "ivl_adaptive": 37.5,
+    "ap50": 0.7737
+  },
+  "bicycle": {
+    "yolo": 35.4,
+    "qwen_adaptive": 35.4,
+    "qwen_full": 8.3,
+    "ivl_adaptive": 35.4,
+    "ap50": 0.8004
+  },
+  "bird": {
+    "yolo": 78.6,
+    "qwen_adaptive": 78.6,
+    "qwen_full": 75.0,
+    "ivl_adaptive": 85.7,
+    "ap50": 0.7073
+  },
+  "boat": {
+    "yolo": 52.9,
+    "qwen_adaptive": 48.6,
+    "qwen_full": 35.7,
+    "ivl_adaptive": 50.0,
+    "ap50": 0.5694
+  },
+  "bottle": {
+    "yolo": 34.5,
+    "qwen_adaptive": 35.4,
+    "qwen_full": 34.5,
+    "ivl_adaptive": 34.5,
+    "ap50": 0.5735
+  },
+  "bus": {
+    "yolo": 60.0,
+    "qwen_adaptive": 60.0,
+    "qwen_full": 50.0,
+    "ivl_adaptive": 60.0,
+    "ap50": 0.8281
+  },
+  "car": {
+    "yolo": 49.3,
+    "qwen_adaptive": 48.6,
+    "qwen_full": 43.5,
+    "ivl_adaptive": 50.0,
+    "ap50": 0.7779
+  },
+  "cat": {
+    "yolo": 62.0,
+    "qwen_adaptive": 58.0,
+    "qwen_full": 46.0,
+    "ivl_adaptive": 72.0,
+    "ap50": 0.8776
+  },
+  "chair": {
+    "yolo": 37.3,
+    "qwen_adaptive": 31.8,
+    "qwen_full": 26.6,
+    "ivl_adaptive": 39.1,
+    "ap50": 0.5806
+  },
+  "cow": {
+    "yolo": 66.7,
+    "qwen_adaptive": 66.7,
+    "qwen_full": 61.1,
+    "ivl_adaptive": 66.7,
+    "ap50": 0.7473
+  },
+  "diningtable": {
+    "yolo": 14.1,
+    "qwen_adaptive": 22.8,
+    "qwen_full": 46.7,
+    "ivl_adaptive": 23.9,
+    "ap50": 0.5882
+  },
+  "dog": {
+    "yolo": 49.3,
+    "qwen_adaptive": 49.3,
+    "qwen_full": 43.3,
+    "ivl_adaptive": 56.7,
+    "ap50": 0.8417
+  },
+  "horse": {
+    "yolo": 48.4,
+    "qwen_adaptive": 54.8,
+    "qwen_full": 58.1,
+    "ivl_adaptive": 58.1,
+    "ap50": 0.831
+  },
+  "motorbike": {
+    "yolo": 38.5,
+    "qwen_adaptive": 40.4,
+    "qwen_full": 65.4,
+    "ivl_adaptive": 38.5,
+    "ap50": 0.8382
+  },
+  "person": {
+    "yolo": 69.8,
+    "qwen_adaptive": 71.5,
+    "qwen_full": 69.1,
+    "ivl_adaptive": 62.0,
+    "ap50": 0.8438
+  },
+  "pottedplant": {
+    "yolo": 26.3,
+    "qwen_adaptive": 32.9,
+    "qwen_full": 36.8,
+    "ivl_adaptive": 21.1,
+    "ap50": 0.5315
+  },
+  "sheep": {
+    "yolo": 100.0,
+    "qwen_adaptive": 100.0,
+    "qwen_full": 57.1,
+    "ivl_adaptive": 85.7,
+    "ap50": 0.7463
+  },
+  "sofa": {
+    "yolo": 21.5,
+    "qwen_adaptive": 38.5,
+    "qwen_full": 75.4,
+    "ivl_adaptive": 18.5,
+    "ap50": 0.6368
+  },
+  "train": {
+    "yolo": 60.0,
+    "qwen_adaptive": 60.0,
+    "qwen_full": 65.0,
+    "ivl_adaptive": 60.0,
+    "ap50": 0.8385
+  },
+  "tvmonitor": {
+    "yolo": 37.9,
+    "qwen_adaptive": 41.4,
+    "qwen_full": 41.4,
+    "ivl_adaptive": 37.9,
+    "ap50": 0.715
+  }
+}

@@ -1,0 +1,28 @@
+Performance Summary
+==============================================================
+Model                     Acc   VLM%   VRAM  ms/crop    FPS
+--------------------------------------------------------------
+YOLO only              88.38%      -      -        -   97.2
+Qwen3.5 Adaptive        90.4%  20.1% 1.62GB    521.0      -
+Qwen3.5 Full           89.21%      - 1.62GB    517.5      -
+InternVL2 Adaptive     83.73%  20.1% 1.76GB    198.6      -
+InternVL2 Full         65.74%      - 1.76GB    196.0      -
+
+Hard Class Analysis (YOLO vs Qwen3.5 Adaptive)
+==========================================
+Class             YOLO  Qwen-Ada   Delta
+------------------------------------------
+bottle           34.5%     35.4%   +0.9pp
+pottedplant      26.3%     32.9%   +6.6pp
+chair            37.3%     31.8%   -5.5pp
+boat             52.9%     48.6%   -4.3pp
+diningtable      14.1%     22.8%   +8.7pp
+sofa             21.5%     38.5%  +17.0pp
+------------------------------------------
+Average          31.1%     35.0%   +3.9pp
+
+InternVL2 Non-VOC Output Rate
+==========================================
+InternVL2 Full:     53/1334 (4.0%)
+InternVL2 Adaptive: 15/1334 (1.1%)
+Qwen3.5:             0/1334 (0.0%)

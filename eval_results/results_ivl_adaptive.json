@@ -1,0 +1,225 @@
+{
+  "model": "InternVL2-1B",
+  "mode": "adaptive",
+  "conf_threshold": 0.5,
+  "acc": 83.73,
+  "total_boxes": 1334,
+  "vlm_calls": 268,
+  "vlm_call_rate": 20.1,
+  "avg_ms_per_crop": 198.6,
+  "vram_gb": 1.76,
+  "confusion": {
+    "tvmonitor": {
+      "tvmonitor": 11,
+      "bottle": 1,
+      "pottedplant": 1,
+      "sofa": 1,
+      "bicycle": 1,
+      "person": 5,
+      "chair": 1
+    },
+    "train": {
+      "train": 12,
+      "person": 5,
+      "pottedplant": 1
+    },
+    "motorbike": {
+      "boat": 4,
+      "motorbike": 20,
+      "person": 31,
+      "bicycle": 2,
+      "car": 5,
+      "tvmonitor": 1,
+      "chair": 3,
+      "diningtable": 1,
+      "horse": 1,
+      "bottle": 2
+    },
+    "cow": {
+      "cow": 12,
+      "car": 5,
+      "horse": 2
+    },
+    "aeroplane": {
+      "aeroplane": 9,
+      "car": 1,
+      "person": 3
+    },
+    "person": {
+      "dog": 18,
+      "person": 624,
+      "bottle": 41,
+      "chair": 79,
+      "car": 36,
+      "motorbike": 20,
+      "boat": 20,
+      "bicycle": 25,
+      "cat": 2,
+      "sofa": 24,
+      "aeroplane": 5,
+      "tvmonitor": 8,
+      "horse": 6,
+      "diningtable": 25,
+      "pottedplant": 20,
+      "train": 8,
+      "bus": 1
+    },
+    "car": {
+      "car": 69,
+      "person": 26,
+      "motorbike": 5,
+      "bottle": 1,
+      "aeroplane": 1,
+      "bicycle": 1,
+      "horse": 1,
+      "cow": 4,
+      "bus": 2
+    },
+    "bus": {
+      "bus": 6,
+      "person": 14,
+      "bicycle": 1,
+      "chair": 2,
+      "boat": 4,
+      "car": 7,
+      "aeroplane": 1,
+      "bottle": 1,
+      "diningtable": 1
+    },
+    "bottle": {
+      "bottle": 39,
+      "person": 42,
+      "chair": 12,
+      "tvmonitor": 2,
+      "diningtable": 3,
+      "sofa": 3,
+      "dog": 1,
+      "pottedplant": 1
+    },
+    "diningtable": {
+      "bottle": 9,
+      "person": 35,
+      "diningtable": 22,
+      "pottedplant": 4,
+      "chair": 23,
+      "sofa": 2,
+      "dog": 1
+    },
+    "chair": {
+      "diningtable": 35,
+      "pottedplant": 16,
+      "chair": 91,
+      "bottle": 7,
+      "person": 85,
+      "sofa": 14,
+      "dog": 2,
+      "tvmonitor": 6,
+      "cat": 3,
+      "bicycle": 1,
+      "car": 3,
+      "boat": 1
+    },
+    "bicycle": {
+      "car": 6,
+      "person": 53,
+      "bicycle": 17,
+      "motorbike": 6,
+      "cat": 3,
+      "bird": 2,
+      "bottle": 6,
+      "aeroplane": 2,
+      "diningtable": 2,
+      "boat": 6,
+      "pottedplant": 2,
+      "chair": 2,
+      "bus": 1
+    },
+    "bird": {
+      "bird": 24,
+      "pottedplant": 6,
+      "horse": 1,
+      "person": 6,
+      "chair": 1,
+      "car": 1
+    },
+    "cat": {
+      "cat": 36,
+      "cow": 1,
+      "chair": 2,
+      "person": 7,
+      "sofa": 2,
+      "pottedplant": 3,
+      "bird": 1,
+      "dog": 1,
+      "bottle": 1
+    },
+    "dog": {
+      "dog": 38,
+      "person": 22,
+      "horse": 1,
+      "sheep": 1,
+      "sofa": 5,
+      "chair": 2,
+      "bottle": 1
+    },
+    "horse": {
+      "horse": 18,
+      "person": 7,
+      "car": 3,
+      "cow": 1
+    },
+    "sheep": {
+      "sheep": 6,
+      "horse": 1
+    },
+    "sofa": {
+      "chair": 8,
+      "cat": 2,
+      "sofa": 12,
+      "dog": 3,
+      "person": 14,
+      "diningtable": 1,
+      "pottedplant": 5,
+      "car": 1,
+      "bird": 1
+    },
+    "boat": {
+      "boat": 35,
+      "person": 16,
+      "pottedplant": 1,
+      "chair": 1,
+      "aeroplane": 2
+    },
+    "airplane": {
+      "car": 1,
+      "aeroplane": 4,
+      "person": 1
+    },
+    "pottedplant": {
+      "pottedplant": 16,
+      "person": 5,
+      "sofa": 1,
+      "cat": 4,
+      "diningtable": 2,
+      "chair": 5,
+      "tvmonitor": 1,
+      "dog": 3,
+      "bottle": 3
+    },
+    "baby": {
+      "person": 3,
+      "bottle": 1,
+      "sofa": 1,
+      "chair": 1
+    },
+    "motorcycle": {
+      "motorbike": 1
+    },
+    "dine table": {
+      "person": 1
+    },
+    "dinnertable": {
+      "person": 1
+    }
+  }
+}

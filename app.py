@@ -94,11 +94,11 @@ with st.sidebar:
          "🎬 " + ("视频追踪" if zh else "Video Tracking")]
     )
 
-    # AI描述开关（仅图片模式）
+    vl_backend = "Qwen3.5-0.8B"
     if "图片" in mode or "Image" in mode:
         st.divider()
         enable_caption = st.toggle(
-            "🤖 " + ("AI智能描述（InternVL）" if zh else "AI Caption (InternVL)"),
+            "🤖 " + ("AI智能描述" if zh else "AI Caption"),
             value=False,
             help="开启后对每个检测目标生成自然语言描述，速度较慢" if zh else
                  "Generate natural language description for each detected object. Slower."
@@ -134,9 +134,9 @@ with st.sidebar:
 # 标题区
 st.markdown('🎯 <span class="gradient-title">YOLOv8 ' + ("目标检测 & 追踪" if zh else "Detection & Tracking") + '</span>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">' + (
-    "基于 YOLOv8s 在 VOC2012 数据集训练，支持图片检测与视频多目标追踪，集成 InternVL 多模态描述"
+    "基于 YOLOv8s 在 VOC2012 数据集训练，支持图片检测与视频多目标追踪，集成 Qwen3.5 多模态描述"
     if zh else
-    "Trained on VOC2012 with YOLOv8s · Image detection, video tracking & InternVL multimodal captioning"
+    "Trained on VOC2012 with YOLOv8s · Image detection, video tracking & Qwen3.5 multimodal captioning"
 ) + '</div>', unsafe_allow_html=True)
 st.divider()
 
@@ -145,30 +145,32 @@ def load_yolo(path):
     return YOLO(path)
 
 @st.cache_resource
-def load_internvl():
-    from transformers import AutoTokenizer, AutoModel
-    import torchvision.transforms as T
-    from torchvision.transforms.functional import InterpolationMode
-    model_path = 'path/to/internvl'  # 替换为 InternVL 模型本地路径
-    tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
-    vl_model = AutoModel.from_pretrained(model_path, torch_dtype=torch.float16, trust_remote_code=True).cuda().eval()
-    return tokenizer, vl_model
+def load_qwen35():
+    from transformers import AutoProcessor
+    from transformers.models.qwen3_5 import Qwen3_5ForConditionalGeneration
+    model_id = '/path/to/Qwen3.5-0.8B'
+    processor = AutoProcessor.from_pretrained(model_id, trust_remote_code=True)
+    vl_model = Qwen3_5ForConditionalGeneration.from_pretrained(
+        model_id, torch_dtype=torch.bfloat16, trust_remote_code=True
+    ).cuda().eval()
+    return processor, vl_model
 
-def get_internvl_description(crop_img, tokenizer, vl_model, zh=True):
-    import torchvision.transforms as T
-    from torchvision.transforms.functional import InterpolationMode
-    IMAGENET_MEAN = (0.485, 0.456, 0.406)
-    IMAGENET_STD = (0.229, 0.224, 0.225)
-    transform = T.Compose([
-        T.Resize((448, 448), interpolation=InterpolationMode.BICUBIC),
-        T.ToTensor(),
-        T.Normalize(mean=IMAGENET_MEAN, std=IMAGENET_STD)
-    ])
-    pixel_values = transform(crop_img).unsqueeze(0).to(torch.float16).cuda()
-    question = '<image>\n用一句中文简短描述这个目标' if zh else '<image>\nDescribe this object briefly in one sentence.'
-    generation_config = dict(max_new_tokens=128, do_sample=False)
-    response = vl_model.chat(tokenizer, pixel_values, question, generation_config)
-    return response
+VOC_CLASSES_STR = "aeroplane, bicycle, bird, boat, bottle, bus, car, cat, chair, cow, diningtable, dog, horse, motorbike, person, pottedplant, sheep, sofa, train, tvmonitor"
+
+def get_qwen35_description(crop_img, processor, vl_model, zh=True):
+    question = f"Choose the most likely category from: {VOC_CLASSES_STR}. Answer with only the category name."
+    messages = [{"role": "user", "content": [
+        {"type": "image", "image": crop_img},
+        {"type": "text", "text": question}
+    ]}]
+    text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    inputs = processor(text=[text], images=[crop_img], return_tensors="pt").to("cuda")
+    gen_inputs = {k: v for k, v in inputs.items()
+                  if k in ("input_ids", "attention_mask", "pixel_values", "image_grid_thw")}
+    with torch.no_grad():
+        output_ids = vl_model.generate(**gen_inputs, max_new_tokens=16, do_sample=False)
+    generated = output_ids[:, inputs.input_ids.shape[1]:]
+    return processor.batch_decode(generated, skip_special_tokens=True)[0].strip()
 
 yolo_model = load_yolo(model_path)
 
@@ -220,10 +222,9 @@ if "图片" in mode or "Image" in mode:
             st.markdown("")
             st.markdown("**" + ("详细结果" if zh else "Details") + "**")
 
-            # 加载InternVL
             if enable_caption:
-                with st.spinner("加载 InternVL 模型..." if zh else "Loading InternVL..."):
-                    tokenizer, vl_model = load_internvl()
+                with st.spinner("加载 VLM 模型..." if zh else "Loading VLM..."):
+                    processor, vl_model = load_qwen35()
 
             img_bgr = cv2.cvtColor(img_array, cv2.COLOR_RGB2BGR)
             for box in sorted(boxes, key=lambda b: float(b.conf), reverse=True):
@@ -238,7 +239,7 @@ if "图片" in mode or "Image" in mode:
                     if crop_bgr.size > 0:
                         crop_rgb = cv2.cvtColor(crop_bgr, cv2.COLOR_BGR2RGB)
                         crop_pil = Image.fromarray(crop_rgb)
-                        desc = get_internvl_description(crop_pil, tokenizer, vl_model, zh)
+                        desc = get_qwen35_description(crop_pil, processor, vl_model, zh)
                         desc_html = f'<div class="desc-card">🤖 {desc}</div>'
 
                 st.markdown(f"""

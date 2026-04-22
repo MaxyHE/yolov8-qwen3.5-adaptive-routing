@@ -10,6 +10,14 @@ data/
 
 # 训练输出
 runs/
+train13/
+
+# 本地分析产物
+error_crops/
+_archive/
+
+# 模型文件夹
+Qwen3.5-0.8B/
 
 # Python
 __pycache__/
@@ -26,4 +34,3 @@ main
 # 系统
 .DS_Store
 Thumbs.db
-train13/ 

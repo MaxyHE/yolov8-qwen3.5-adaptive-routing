@@ -1,0 +1,195 @@
+{
+  "model": "Qwen3.5-0.8B",
+  "mode": "adaptive",
+  "conf_threshold": 0.5,
+  "acc": 90.4,
+  "total_boxes": 1334,
+  "vlm_calls": 268,
+  "vlm_call_rate": 20.1,
+  "avg_ms_per_crop": 521.0,
+  "vram_gb": 1.62,
+  "confusion": {
+    "tvmonitor": {
+      "tvmonitor": 12,
+      "bottle": 1,
+      "person": 5,
+      "bicycle": 1,
+      "chair": 2,
+      "car": 1
+    },
+    "train": {
+      "person": 5,
+      "train": 12,
+      "bird": 1,
+      "pottedplant": 1
+    },
+    "car": {
+      "boat": 1,
+      "car": 67,
+      "person": 22,
+      "aeroplane": 1,
+      "bicycle": 1,
+      "motorbike": 4,
+      "horse": 1,
+      "cow": 4,
+      "bus": 2,
+      "chair": 1,
+      "diningtable": 1
+    },
+    "cow": {
+      "cow": 12,
+      "car": 4,
+      "horse": 2
+    },
+    "aeroplane": {
+      "aeroplane": 13,
+      "car": 2,
+      "person": 4
+    },
+    "person": {
+      "person": 719,
+      "dog": 21,
+      "bottle": 52,
+      "chair": 93,
+      "car": 48,
+      "boat": 31,
+      "motorbike": 21,
+      "bicycle": 25,
+      "cat": 4,
+      "sofa": 27,
+      "tvmonitor": 9,
+      "aeroplane": 7,
+      "horse": 8,
+      "diningtable": 34,
+      "pottedplant": 23,
+      "train": 8,
+      "bus": 1
+    },
+    "bus": {
+      "person": 6,
+      "bus": 6,
+      "bicycle": 1,
+      "chair": 1,
+      "car": 4,
+      "boat": 1
+    },
+    "bottle": {
+      "person": 43,
+      "bottle": 40,
+      "chair": 10,
+      "tvmonitor": 2,
+      "diningtable": 3,
+      "boat": 1,
+      "aeroplane": 1,
+      "sofa": 3,
+      "dog": 1,
+      "pottedplant": 1
+    },
+    "chair": {
+      "chair": 74,
+      "diningtable": 23,
+      "pottedplant": 12,
+      "person": 57,
+      "bottle": 7,
+      "sofa": 5,
+      "tvmonitor": 5,
+      "cat": 4,
+      "car": 1,
+      "boat": 1,
+      "dog": 1
+    },
+    "diningtable": {
+      "chair": 21,
+      "diningtable": 21,
+      "pottedplant": 3,
+      "person": 19,
+      "sofa": 1,
+      "bottle": 6,
+      "bicycle": 1,
+      "dog": 1
+    },
+    "bird": {
+      "bird": 22,
+      "pottedplant": 1,
+      "horse": 1,
+      "person": 1,
+      "car": 1
+    },
+    "cat": {
+      "cat": 29,
+      "cow": 1,
+      "chair": 2,
+      "person": 6,
+      "pottedplant": 3,
+      "bird": 1,
+      "dog": 1,
+      "bottle": 1
+    },
+    "dog": {
+      "person": 17,
+      "dog": 33,
+      "horse": 1,
+      "car": 1,
+      "sofa": 3,
+      "cat": 1,
+      "chair": 2,
+      "bottle": 1
+    },
+    "horse": {
+      "horse": 17,
+      "person": 6,
+      "car": 2,
+      "cow": 1
+    },
+    "motorbike": {
+      "boat": 1,
+      "person": 16,
+      "motorbike": 21,
+      "bicycle": 2,
+      "car": 3,
+      "bus": 1
+    },
+    "sheep": {
+      "sheep": 7,
+      "horse": 1
+    },
+    "bicycle": {
+      "person": 24,
+      "bicycle": 17,
+      "car": 3,
+      "motorbike": 6,
+      "bottle": 1
+    },
+    "sofa": {
+      "chair": 17,
+      "cat": 6,
+      "sofa": 25,
+      "person": 33,
+      "dog": 6,
+      "diningtable": 7,
+      "pottedplant": 6,
+      "car": 1,
+      "bird": 1,
+      "bottle": 1
+    },
+    "boat": {
+      "boat": 34,
+      "person": 9,
+      "chair": 1,
+      "pottedplant": 1,
+      "aeroplane": 2
+    },
+    "pottedplant": {
+      "chair": 9,
+      "pottedplant": 25,
+      "cat": 6,
+      "person": 14,
+      "sofa": 1,
+      "diningtable": 3,
+      "bird": 3,
+      "tvmonitor": 1,
+      "dog": 3,
+      "bottle": 3
+    }
+  }
+}
