@@ -1,4 +1,4 @@
-# yolov8-qwen35-adaptive-routing
+# yolov8-qwen3.5-adaptive-routing
 
 <div align="center">
 
