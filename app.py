@@ -158,7 +158,7 @@ def load_qwen35():
 VOC_CLASSES_STR = "aeroplane, bicycle, bird, boat, bottle, bus, car, cat, chair, cow, diningtable, dog, horse, motorbike, person, pottedplant, sheep, sofa, train, tvmonitor"
 
 def get_qwen35_description(crop_img, processor, vl_model, zh=True):
-    question = f"Choose the most likely category from: {VOC_CLASSES_STR}. Answer with only the category name."
+    question = "用一句中文简短描述这个目标" if zh else "Describe this object briefly in one sentence."
     messages = [{"role": "user", "content": [
         {"type": "image", "image": crop_img},
         {"type": "text", "text": question}
@@ -168,7 +168,7 @@ def get_qwen35_description(crop_img, processor, vl_model, zh=True):
     gen_inputs = {k: v for k, v in inputs.items()
                   if k in ("input_ids", "attention_mask", "pixel_values", "image_grid_thw")}
     with torch.no_grad():
-        output_ids = vl_model.generate(**gen_inputs, max_new_tokens=16, do_sample=False)
+        output_ids = vl_model.generate(**gen_inputs, max_new_tokens=64, do_sample=False)
     generated = output_ids[:, inputs.input_ids.shape[1]:]
     return processor.batch_decode(generated, skip_special_tokens=True)[0].strip()
 
