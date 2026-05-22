@@ -1,0 +1,4818 @@
+[
+  {
+    "filename": "2008_000007_0_conf0.47_bottle.jpg",
+    "img_id": "2008_000007",
+    "box_idx": 0,
+    "x1": 386,
+    "y1": 175,
+    "x2": 401,
+    "y2": 232,
+    "conf": 0.474,
+    "yolo_pred": "bottle",
+    "gt_classes": [
+      "boat"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000034_2_conf0.40_person.jpg",
+    "img_id": "2008_000034",
+    "box_idx": 2,
+    "x1": 44,
+    "y1": 121,
+    "x2": 197,
+    "y2": 317,
+    "conf": 0.397,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "bottle",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000034_3_conf0.31_person.jpg",
+    "img_id": "2008_000034",
+    "box_idx": 3,
+    "x1": 20,
+    "y1": 159,
+    "x2": 107,
+    "y2": 295,
+    "conf": 0.312,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "bottle",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000043_7_conf0.48_chair.jpg",
+    "img_id": "2008_000043",
+    "box_idx": 7,
+    "x1": 241,
+    "y1": 157,
+    "x2": 315,
+    "y2": 280,
+    "conf": 0.485,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "diningtable",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "pottedplant"
+    ],
+    "true_label": "chair"
+  },
+  {
+    "filename": "2008_000052_3_conf0.47_boat.jpg",
+    "img_id": "2008_000052",
+    "box_idx": 3,
+    "x1": 0,
+    "y1": 60,
+    "x2": 42,
+    "y2": 85,
+    "conf": 0.472,
+    "yolo_pred": "boat",
+    "gt_classes": [
+      "car",
+      "person",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000174_3_conf0.47_car.jpg",
+    "img_id": "2008_000174",
+    "box_idx": 3,
+    "x1": 427,
+    "y1": 251,
+    "x2": 499,
+    "y2": 356,
+    "conf": 0.47,
+    "yolo_pred": "car",
+    "gt_classes": [
+      "car",
+      "car",
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "true_label": "car"
+  },
+  {
+    "filename": "2008_000177_1_conf0.44_sheep.jpg",
+    "img_id": "2008_000177",
+    "box_idx": 1,
+    "x1": 0,
+    "y1": 43,
+    "x2": 415,
+    "y2": 499,
+    "conf": 0.443,
+    "yolo_pred": "sheep",
+    "gt_classes": [
+      "horse"
+    ],
+    "true_label": "horse"
+  },
+  {
+    "filename": "2008_000203_2_conf0.41_car.jpg",
+    "img_id": "2008_000203",
+    "box_idx": 2,
+    "x1": 78,
+    "y1": 82,
+    "x2": 245,
+    "y2": 253,
+    "conf": 0.405,
+    "yolo_pred": "car",
+    "gt_classes": [
+      "person",
+      "person",
+      "motorbike",
+      "car"
+    ],
+    "true_label": "car"
+  },
+  {
+    "filename": "2008_000203_3_conf0.37_bicycle.jpg",
+    "img_id": "2008_000203",
+    "box_idx": 3,
+    "x1": 341,
+    "y1": 157,
+    "x2": 413,
+    "y2": 265,
+    "conf": 0.367,
+    "yolo_pred": "bicycle",
+    "gt_classes": [
+      "person",
+      "person",
+      "motorbike",
+      "car"
+    ],
+    "true_label": "bicycle"
+  },
+  {
+    "filename": "2008_000219_2_conf0.38_sheep.jpg",
+    "img_id": "2008_000219",
+    "box_idx": 2,
+    "x1": 380,
+    "y1": 153,
+    "x2": 464,
+    "y2": 241,
+    "conf": 0.383,
+    "yolo_pred": "sheep",
+    "gt_classes": [
+      "horse",
+      "horse"
+    ],
+    "true_label": "horse"
+  },
+  {
+    "filename": "2008_000222_1_conf0.38_cat.jpg",
+    "img_id": "2008_000222",
+    "box_idx": 1,
+    "x1": 0,
+    "y1": 95,
+    "x2": 246,
+    "y2": 352,
+    "conf": 0.375,
+    "yolo_pred": "cat",
+    "gt_classes": [
+      "person",
+      "cat"
+    ],
+    "true_label": "cat"
+  },
+  {
+    "filename": "2008_000246_0_conf0.37_person.jpg",
+    "img_id": "2008_000246",
+    "box_idx": 0,
+    "x1": 1,
+    "y1": 16,
+    "x2": 335,
+    "y2": 374,
+    "conf": 0.374,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "chair"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000246_1_conf0.26_motorbike.jpg",
+    "img_id": "2008_000246",
+    "box_idx": 1,
+    "x1": 8,
+    "y1": 44,
+    "x2": 496,
+    "y2": 374,
+    "conf": 0.261,
+    "yolo_pred": "motorbike",
+    "gt_classes": [
+      "person",
+      "chair"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000251_1_conf0.49_aeroplane.jpg",
+    "img_id": "2008_000251",
+    "box_idx": 1,
+    "x1": 31,
+    "y1": 111,
+    "x2": 256,
+    "y2": 177,
+    "conf": 0.492,
+    "yolo_pred": "aeroplane",
+    "gt_classes": [
+      "aeroplane",
+      "aeroplane",
+      "aeroplane",
+      "car"
+    ],
+    "true_label": "aeroplane"
+  },
+  {
+    "filename": "2008_000253_2_conf0.27_bird.jpg",
+    "img_id": "2008_000253",
+    "box_idx": 2,
+    "x1": 147,
+    "y1": 175,
+    "x2": 182,
+    "y2": 203,
+    "conf": 0.265,
+    "yolo_pred": "bird",
+    "gt_classes": [
+      "car"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000257_5_conf0.46_sheep.jpg",
+    "img_id": "2008_000257",
+    "box_idx": 5,
+    "x1": 282,
+    "y1": 329,
+    "x2": 306,
+    "y2": 352,
+    "conf": 0.459,
+    "yolo_pred": "sheep",
+    "gt_classes": [
+      "sheep",
+      "sheep",
+      "sheep",
+      "sheep",
+      "sheep"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000261_1_conf0.28_car.jpg",
+    "img_id": "2008_000261",
+    "box_idx": 1,
+    "x1": 307,
+    "y1": 8,
+    "x2": 499,
+    "y2": 375,
+    "conf": 0.275,
+    "yolo_pred": "car",
+    "gt_classes": [
+      "person",
+      "car",
+      "bottle",
+      "bottle"
+    ],
+    "true_label": "car"
+  },
+  {
+    "filename": "2008_000270_4_conf0.47_person.jpg",
+    "img_id": "2008_000270",
+    "box_idx": 4,
+    "x1": 0,
+    "y1": 57,
+    "x2": 365,
+    "y2": 333,
+    "conf": 0.471,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "dog",
+      "sofa",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000274_1_conf0.29_boat.jpg",
+    "img_id": "2008_000274",
+    "box_idx": 1,
+    "x1": 76,
+    "y1": 110,
+    "x2": 500,
+    "y2": 317,
+    "conf": 0.29,
+    "yolo_pred": "boat",
+    "gt_classes": [
+      "pottedplant",
+      "pottedplant",
+      "pottedplant",
+      "pottedplant",
+      "pottedplant",
+      "pottedplant",
+      "pottedplant",
+      "chair",
+      "chair"
+    ],
+    "true_label": "pottedplant"
+  },
+  {
+    "filename": "2008_000304_4_conf0.49_car.jpg",
+    "img_id": "2008_000304",
+    "box_idx": 4,
+    "x1": 2,
+    "y1": 154,
+    "x2": 40,
+    "y2": 181,
+    "conf": 0.491,
+    "yolo_pred": "car",
+    "gt_classes": [
+      "car",
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "true_label": "car"
+  },
+  {
+    "filename": "2008_000305_0_conf0.32_person.jpg",
+    "img_id": "2008_000305",
+    "box_idx": 0,
+    "x1": 344,
+    "y1": 114,
+    "x2": 368,
+    "y2": 147,
+    "conf": 0.321,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "chair",
+      "tvmonitor"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000305_1_conf0.30_chair.jpg",
+    "img_id": "2008_000305",
+    "box_idx": 1,
+    "x1": 81,
+    "y1": 205,
+    "x2": 493,
+    "y2": 374,
+    "conf": 0.297,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "chair",
+      "tvmonitor"
+    ],
+    "true_label": "chair"
+  },
+  {
+    "filename": "2008_000305_2_conf0.27_sofa.jpg",
+    "img_id": "2008_000305",
+    "box_idx": 2,
+    "x1": 71,
+    "y1": 205,
+    "x2": 498,
+    "y2": 374,
+    "conf": 0.273,
+    "yolo_pred": "sofa",
+    "gt_classes": [
+      "chair",
+      "tvmonitor"
+    ],
+    "true_label": "chair"
+  },
+  {
+    "filename": "2008_000306_0_conf0.43_tvmonitor.jpg",
+    "img_id": "2008_000306",
+    "box_idx": 0,
+    "x1": 0,
+    "y1": 63,
+    "x2": 375,
+    "y2": 499,
+    "conf": 0.431,
+    "yolo_pred": "tvmonitor",
+    "gt_classes": [
+      "cat"
+    ],
+    "true_label": "cat"
+  },
+  {
+    "filename": "2008_000306_1_conf0.39_cat.jpg",
+    "img_id": "2008_000306",
+    "box_idx": 1,
+    "x1": 269,
+    "y1": 1,
+    "x2": 374,
+    "y2": 408,
+    "conf": 0.394,
+    "yolo_pred": "cat",
+    "gt_classes": [
+      "cat"
+    ],
+    "true_label": "cat"
+  },
+  {
+    "filename": "2008_000306_2_conf0.33_cat.jpg",
+    "img_id": "2008_000306",
+    "box_idx": 2,
+    "x1": 311,
+    "y1": 0,
+    "x2": 374,
+    "y2": 402,
+    "conf": 0.326,
+    "yolo_pred": "cat",
+    "gt_classes": [
+      "cat"
+    ],
+    "true_label": "cat"
+  },
+  {
+    "filename": "2008_000306_3_conf0.31_tvmonitor.jpg",
+    "img_id": "2008_000306",
+    "box_idx": 3,
+    "x1": 7,
+    "y1": 28,
+    "x2": 375,
+    "y2": 381,
+    "conf": 0.307,
+    "yolo_pred": "tvmonitor",
+    "gt_classes": [
+      "cat"
+    ],
+    "true_label": "cat"
+  },
+  {
+    "filename": "2008_000328_1_conf0.42_motorbike.jpg",
+    "img_id": "2008_000328",
+    "box_idx": 1,
+    "x1": 152,
+    "y1": 186,
+    "x2": 277,
+    "y2": 433,
+    "conf": 0.418,
+    "yolo_pred": "motorbike",
+    "gt_classes": [
+      "person",
+      "motorbike"
+    ],
+    "true_label": "motorbike"
+  },
+  {
+    "filename": "2008_000339_0_conf0.46_bird.jpg",
+    "img_id": "2008_000339",
+    "box_idx": 0,
+    "x1": 91,
+    "y1": 298,
+    "x2": 145,
+    "y2": 353,
+    "conf": 0.461,
+    "yolo_pred": "bird",
+    "gt_classes": [
+      "bird",
+      "bird",
+      "bird"
+    ],
+    "true_label": "bird"
+  },
+  {
+    "filename": "2008_000340_1_conf0.46_person.jpg",
+    "img_id": "2008_000340",
+    "box_idx": 1,
+    "x1": 95,
+    "y1": 34,
+    "x2": 331,
+    "y2": 499,
+    "conf": 0.461,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000340_2_conf0.29_dog.jpg",
+    "img_id": "2008_000340",
+    "box_idx": 2,
+    "x1": 0,
+    "y1": 0,
+    "x2": 320,
+    "y2": 497,
+    "conf": 0.287,
+    "yolo_pred": "dog",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000358_0_conf0.36_cat.jpg",
+    "img_id": "2008_000358",
+    "box_idx": 0,
+    "x1": 12,
+    "y1": 30,
+    "x2": 453,
+    "y2": 289,
+    "conf": 0.359,
+    "yolo_pred": "cat",
+    "gt_classes": [
+      "cat"
+    ],
+    "true_label": "cat"
+  },
+  {
+    "filename": "2008_000408_5_conf0.31_person.jpg",
+    "img_id": "2008_000408",
+    "box_idx": 5,
+    "x1": 457,
+    "y1": 103,
+    "x2": 499,
+    "y2": 317,
+    "conf": 0.313,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "diningtable"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000414_1_conf0.49_boat.jpg",
+    "img_id": "2008_000414",
+    "box_idx": 1,
+    "x1": 2,
+    "y1": 54,
+    "x2": 382,
+    "y2": 316,
+    "conf": 0.494,
+    "yolo_pred": "boat",
+    "gt_classes": [
+      "boat",
+      "boat",
+      "boat"
+    ],
+    "true_label": "boat"
+  },
+  {
+    "filename": "2008_000414_2_conf0.49_boat.jpg",
+    "img_id": "2008_000414",
+    "box_idx": 2,
+    "x1": 315,
+    "y1": 115,
+    "x2": 412,
+    "y2": 139,
+    "conf": 0.489,
+    "yolo_pred": "boat",
+    "gt_classes": [
+      "boat",
+      "boat",
+      "boat"
+    ],
+    "true_label": "boat"
+  },
+  {
+    "filename": "2008_000414_3_conf0.40_boat.jpg",
+    "img_id": "2008_000414",
+    "box_idx": 3,
+    "x1": 5,
+    "y1": 45,
+    "x2": 316,
+    "y2": 276,
+    "conf": 0.402,
+    "yolo_pred": "boat",
+    "gt_classes": [
+      "boat",
+      "boat",
+      "boat"
+    ],
+    "true_label": "boat"
+  },
+  {
+    "filename": "2008_000414_4_conf0.26_boat.jpg",
+    "img_id": "2008_000414",
+    "box_idx": 4,
+    "x1": 432,
+    "y1": 119,
+    "x2": 475,
+    "y2": 144,
+    "conf": 0.261,
+    "yolo_pred": "boat",
+    "gt_classes": [
+      "boat",
+      "boat",
+      "boat"
+    ],
+    "true_label": "car"
+  },
+  {
+    "filename": "2008_000418_5_conf0.45_chair.jpg",
+    "img_id": "2008_000418",
+    "box_idx": 5,
+    "x1": 233,
+    "y1": 336,
+    "x2": 411,
+    "y2": 374,
+    "conf": 0.446,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "person",
+      "diningtable",
+      "chair",
+      "chair"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000424_7_conf0.27_person.jpg",
+    "img_id": "2008_000424",
+    "box_idx": 7,
+    "x1": 232,
+    "y1": 41,
+    "x2": 250,
+    "y2": 60,
+    "conf": 0.273,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000446_2_conf0.38_person.jpg",
+    "img_id": "2008_000446",
+    "box_idx": 2,
+    "x1": 104,
+    "y1": 171,
+    "x2": 221,
+    "y2": 440,
+    "conf": 0.376,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "chair"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000465_3_conf0.45_chair.jpg",
+    "img_id": "2008_000465",
+    "box_idx": 3,
+    "x1": 64,
+    "y1": 145,
+    "x2": 142,
+    "y2": 209,
+    "conf": 0.454,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "sofa",
+      "sofa",
+      "sofa",
+      "sofa",
+      "pottedplant"
+    ],
+    "true_label": "sofa"
+  },
+  {
+    "filename": "2008_000465_4_conf0.28_tvmonitor.jpg",
+    "img_id": "2008_000465",
+    "box_idx": 4,
+    "x1": 0,
+    "y1": 49,
+    "x2": 19,
+    "y2": 124,
+    "conf": 0.285,
+    "yolo_pred": "tvmonitor",
+    "gt_classes": [
+      "sofa",
+      "sofa",
+      "sofa",
+      "sofa",
+      "pottedplant"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000469_4_conf0.30_boat.jpg",
+    "img_id": "2008_000469",
+    "box_idx": 4,
+    "x1": 448,
+    "y1": 65,
+    "x2": 499,
+    "y2": 192,
+    "conf": 0.305,
+    "yolo_pred": "boat",
+    "gt_classes": [
+      "person",
+      "person",
+      "bicycle"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000473_2_conf0.48_person.jpg",
+    "img_id": "2008_000473",
+    "box_idx": 2,
+    "x1": 0,
+    "y1": 244,
+    "x2": 212,
+    "y2": 447,
+    "conf": 0.482,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "chair",
+      "chair"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000473_3_conf0.39_person.jpg",
+    "img_id": "2008_000473",
+    "box_idx": 3,
+    "x1": 53,
+    "y1": 165,
+    "x2": 190,
+    "y2": 385,
+    "conf": 0.393,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "chair",
+      "chair"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000489_1_conf0.40_motorbike.jpg",
+    "img_id": "2008_000489",
+    "box_idx": 1,
+    "x1": 0,
+    "y1": 279,
+    "x2": 201,
+    "y2": 374,
+    "conf": 0.404,
+    "yolo_pred": "motorbike",
+    "gt_classes": [
+      "person",
+      "chair"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000492_1_conf0.47_person.jpg",
+    "img_id": "2008_000492",
+    "box_idx": 1,
+    "x1": 0,
+    "y1": 0,
+    "x2": 471,
+    "y2": 375,
+    "conf": 0.473,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "sofa"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000519_1_conf0.29_person.jpg",
+    "img_id": "2008_000519",
+    "box_idx": 1,
+    "x1": 164,
+    "y1": 64,
+    "x2": 392,
+    "y2": 203,
+    "conf": 0.288,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "sofa"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000522_0_conf0.42_person.jpg",
+    "img_id": "2008_000522",
+    "box_idx": 0,
+    "x1": 0,
+    "y1": 0,
+    "x2": 443,
+    "y2": 335,
+    "conf": 0.418,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "bottle"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000522_1_conf0.29_motorbike.jpg",
+    "img_id": "2008_000522",
+    "box_idx": 1,
+    "x1": 0,
+    "y1": 1,
+    "x2": 445,
+    "y2": 335,
+    "conf": 0.287,
+    "yolo_pred": "motorbike",
+    "gt_classes": [
+      "person",
+      "bottle"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000541_5_conf0.37_person.jpg",
+    "img_id": "2008_000541",
+    "box_idx": 5,
+    "x1": 17,
+    "y1": 175,
+    "x2": 161,
+    "y2": 374,
+    "conf": 0.367,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "sofa"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000553_1_conf0.40_person.jpg",
+    "img_id": "2008_000553",
+    "box_idx": 1,
+    "x1": 0,
+    "y1": 278,
+    "x2": 411,
+    "y2": 499,
+    "conf": 0.402,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000568_2_conf0.28_person.jpg",
+    "img_id": "2008_000568",
+    "box_idx": 2,
+    "x1": 309,
+    "y1": 50,
+    "x2": 499,
+    "y2": 365,
+    "conf": 0.28,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000569_2_conf0.32_person.jpg",
+    "img_id": "2008_000569",
+    "box_idx": 2,
+    "x1": 309,
+    "y1": 152,
+    "x2": 381,
+    "y2": 298,
+    "conf": 0.318,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000573_4_conf0.39_person.jpg",
+    "img_id": "2008_000573",
+    "box_idx": 4,
+    "x1": 0,
+    "y1": 34,
+    "x2": 39,
+    "y2": 279,
+    "conf": 0.392,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "diningtable",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000573_5_conf0.26_chair.jpg",
+    "img_id": "2008_000573",
+    "box_idx": 5,
+    "x1": 306,
+    "y1": 214,
+    "x2": 352,
+    "y2": 331,
+    "conf": 0.259,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "diningtable",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "chair"
+  },
+  {
+    "filename": "2008_000581_1_conf0.31_boat.jpg",
+    "img_id": "2008_000581",
+    "box_idx": 1,
+    "x1": 209,
+    "y1": 468,
+    "x2": 273,
+    "y2": 499,
+    "conf": 0.309,
+    "yolo_pred": "boat",
+    "gt_classes": [
+      "cat"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000589_2_conf0.42_sofa.jpg",
+    "img_id": "2008_000589",
+    "box_idx": 2,
+    "x1": 251,
+    "y1": 97,
+    "x2": 499,
+    "y2": 315,
+    "conf": 0.418,
+    "yolo_pred": "sofa",
+    "gt_classes": [
+      "sofa",
+      "sofa",
+      "sofa",
+      "sofa"
+    ],
+    "true_label": "sofa"
+  },
+  {
+    "filename": "2008_000599_5_conf0.39_chair.jpg",
+    "img_id": "2008_000599",
+    "box_idx": 5,
+    "x1": 0,
+    "y1": 233,
+    "x2": 390,
+    "y2": 333,
+    "conf": 0.386,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000599_6_conf0.28_chair.jpg",
+    "img_id": "2008_000599",
+    "box_idx": 6,
+    "x1": 434,
+    "y1": 207,
+    "x2": 499,
+    "y2": 332,
+    "conf": 0.279,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000609_3_conf0.30_person.jpg",
+    "img_id": "2008_000609",
+    "box_idx": 3,
+    "x1": 89,
+    "y1": 123,
+    "x2": 224,
+    "y2": 334,
+    "conf": 0.296,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000620_1_conf0.46_person.jpg",
+    "img_id": "2008_000620",
+    "box_idx": 1,
+    "x1": 250,
+    "y1": 147,
+    "x2": 344,
+    "y2": 321,
+    "conf": 0.46,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "dog"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000656_2_conf0.43_bottle.jpg",
+    "img_id": "2008_000656",
+    "box_idx": 2,
+    "x1": 285,
+    "y1": 187,
+    "x2": 306,
+    "y2": 238,
+    "conf": 0.427,
+    "yolo_pred": "bottle",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000656_3_conf0.41_bottle.jpg",
+    "img_id": "2008_000656",
+    "box_idx": 3,
+    "x1": 240,
+    "y1": 66,
+    "x2": 268,
+    "y2": 164,
+    "conf": 0.413,
+    "yolo_pred": "bottle",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000660_2_conf0.32_pottedplant.jpg",
+    "img_id": "2008_000660",
+    "box_idx": 2,
+    "x1": 0,
+    "y1": 0,
+    "x2": 128,
+    "y2": 191,
+    "conf": 0.318,
+    "yolo_pred": "pottedplant",
+    "gt_classes": [
+      "person",
+      "cat"
+    ],
+    "true_label": "cat"
+  },
+  {
+    "filename": "2008_000661_1_conf0.46_person.jpg",
+    "img_id": "2008_000661",
+    "box_idx": 1,
+    "x1": 0,
+    "y1": 0,
+    "x2": 335,
+    "y2": 257,
+    "conf": 0.463,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "dog",
+      "dog"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000661_2_conf0.34_person.jpg",
+    "img_id": "2008_000661",
+    "box_idx": 2,
+    "x1": 0,
+    "y1": 0,
+    "x2": 473,
+    "y2": 267,
+    "conf": 0.344,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "dog",
+      "dog"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000662_0_conf0.39_person.jpg",
+    "img_id": "2008_000662",
+    "box_idx": 0,
+    "x1": 67,
+    "y1": 6,
+    "x2": 444,
+    "y2": 299,
+    "conf": 0.393,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000662_1_conf0.35_motorbike.jpg",
+    "img_id": "2008_000662",
+    "box_idx": 1,
+    "x1": 0,
+    "y1": 0,
+    "x2": 479,
+    "y2": 333,
+    "conf": 0.352,
+    "yolo_pred": "motorbike",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000662_2_conf0.28_dog.jpg",
+    "img_id": "2008_000662",
+    "box_idx": 2,
+    "x1": 471,
+    "y1": 9,
+    "x2": 499,
+    "y2": 328,
+    "conf": 0.282,
+    "yolo_pred": "dog",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000662_3_conf0.28_person.jpg",
+    "img_id": "2008_000662",
+    "box_idx": 3,
+    "x1": 90,
+    "y1": 39,
+    "x2": 455,
+    "y2": 254,
+    "conf": 0.278,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000670_0_conf0.33_cat.jpg",
+    "img_id": "2008_000670",
+    "box_idx": 0,
+    "x1": 54,
+    "y1": 75,
+    "x2": 321,
+    "y2": 174,
+    "conf": 0.331,
+    "yolo_pred": "cat",
+    "gt_classes": [
+      "cat",
+      "sofa"
+    ],
+    "true_label": "cat"
+  },
+  {
+    "filename": "2008_000670_1_conf0.29_dog.jpg",
+    "img_id": "2008_000670",
+    "box_idx": 1,
+    "x1": 3,
+    "y1": 4,
+    "x2": 383,
+    "y2": 256,
+    "conf": 0.286,
+    "yolo_pred": "dog",
+    "gt_classes": [
+      "cat",
+      "sofa"
+    ],
+    "true_label": "cat"
+  },
+  {
+    "filename": "2008_000677_4_conf0.40_person.jpg",
+    "img_id": "2008_000677",
+    "box_idx": 4,
+    "x1": 227,
+    "y1": 85,
+    "x2": 297,
+    "y2": 297,
+    "conf": 0.398,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "bottle"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000697_0_conf0.30_boat.jpg",
+    "img_id": "2008_000697",
+    "box_idx": 0,
+    "x1": 0,
+    "y1": 113,
+    "x2": 130,
+    "y2": 214,
+    "conf": 0.3,
+    "yolo_pred": "boat",
+    "gt_classes": [
+      "bird"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000699_2_conf0.40_person.jpg",
+    "img_id": "2008_000699",
+    "box_idx": 2,
+    "x1": 195,
+    "y1": 52,
+    "x2": 223,
+    "y2": 122,
+    "conf": 0.397,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000700_1_conf0.33_bird.jpg",
+    "img_id": "2008_000700",
+    "box_idx": 1,
+    "x1": 33,
+    "y1": 70,
+    "x2": 391,
+    "y2": 296,
+    "conf": 0.333,
+    "yolo_pred": "bird",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000705_2_conf0.33_bottle.jpg",
+    "img_id": "2008_000705",
+    "box_idx": 2,
+    "x1": 456,
+    "y1": 236,
+    "x2": 472,
+    "y2": 279,
+    "conf": 0.326,
+    "yolo_pred": "bottle",
+    "gt_classes": [
+      "person",
+      "bottle",
+      "bottle"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000705_3_conf0.26_bottle.jpg",
+    "img_id": "2008_000705",
+    "box_idx": 3,
+    "x1": 325,
+    "y1": 78,
+    "x2": 352,
+    "y2": 100,
+    "conf": 0.257,
+    "yolo_pred": "bottle",
+    "gt_classes": [
+      "person",
+      "bottle",
+      "bottle"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000705_4_conf0.25_bottle.jpg",
+    "img_id": "2008_000705",
+    "box_idx": 4,
+    "x1": 477,
+    "y1": 245,
+    "x2": 492,
+    "y2": 279,
+    "conf": 0.253,
+    "yolo_pred": "bottle",
+    "gt_classes": [
+      "person",
+      "bottle",
+      "bottle"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000714_2_conf0.41_person.jpg",
+    "img_id": "2008_000714",
+    "box_idx": 2,
+    "x1": 217,
+    "y1": 192,
+    "x2": 293,
+    "y2": 373,
+    "conf": 0.406,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000714_3_conf0.28_bird.jpg",
+    "img_id": "2008_000714",
+    "box_idx": 3,
+    "x1": 0,
+    "y1": 0,
+    "x2": 227,
+    "y2": 374,
+    "conf": 0.283,
+    "yolo_pred": "bird",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000725_2_conf0.25_person.jpg",
+    "img_id": "2008_000725",
+    "box_idx": 2,
+    "x1": 20,
+    "y1": 75,
+    "x2": 108,
+    "y2": 136,
+    "conf": 0.251,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "bicycle"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000769_0_conf0.43_bicycle.jpg",
+    "img_id": "2008_000769",
+    "box_idx": 0,
+    "x1": 0,
+    "y1": 0,
+    "x2": 499,
+    "y2": 375,
+    "conf": 0.432,
+    "yolo_pred": "bicycle",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000776_3_conf0.40_person.jpg",
+    "img_id": "2008_000776",
+    "box_idx": 3,
+    "x1": 342,
+    "y1": 78,
+    "x2": 358,
+    "y2": 130,
+    "conf": 0.403,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000776_4_conf0.38_person.jpg",
+    "img_id": "2008_000776",
+    "box_idx": 4,
+    "x1": 280,
+    "y1": 87,
+    "x2": 296,
+    "y2": 142,
+    "conf": 0.381,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000776_5_conf0.34_person.jpg",
+    "img_id": "2008_000776",
+    "box_idx": 5,
+    "x1": 292,
+    "y1": 86,
+    "x2": 307,
+    "y2": 140,
+    "conf": 0.344,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000795_7_conf0.47_person.jpg",
+    "img_id": "2008_000795",
+    "box_idx": 7,
+    "x1": 365,
+    "y1": 170,
+    "x2": 384,
+    "y2": 194,
+    "conf": 0.467,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "bottle"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000805_1_conf0.37_aeroplane.jpg",
+    "img_id": "2008_000805",
+    "box_idx": 1,
+    "x1": 49,
+    "y1": 97,
+    "x2": 493,
+    "y2": 304,
+    "conf": 0.37,
+    "yolo_pred": "aeroplane",
+    "gt_classes": [
+      "aeroplane"
+    ],
+    "true_label": "aeroplane"
+  },
+  {
+    "filename": "2008_000817_1_conf0.45_chair.jpg",
+    "img_id": "2008_000817",
+    "box_idx": 1,
+    "x1": 287,
+    "y1": 166,
+    "x2": 330,
+    "y2": 236,
+    "conf": 0.446,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "chair",
+      "chair",
+      "chair",
+      "diningtable"
+    ],
+    "true_label": "chair"
+  },
+  {
+    "filename": "2008_000835_8_conf0.48_person.jpg",
+    "img_id": "2008_000835",
+    "box_idx": 8,
+    "x1": 282,
+    "y1": 62,
+    "x2": 329,
+    "y2": 120,
+    "conf": 0.475,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "chair",
+      "chair",
+      "diningtable"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000835_9_conf0.42_bottle.jpg",
+    "img_id": "2008_000835",
+    "box_idx": 9,
+    "x1": 335,
+    "y1": 92,
+    "x2": 349,
+    "y2": 126,
+    "conf": 0.423,
+    "yolo_pred": "bottle",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "chair",
+      "chair",
+      "diningtable"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000835_10_conf0.38_chair.jpg",
+    "img_id": "2008_000835",
+    "box_idx": 10,
+    "x1": 177,
+    "y1": 106,
+    "x2": 215,
+    "y2": 186,
+    "conf": 0.376,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "chair",
+      "chair",
+      "diningtable"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000835_11_conf0.35_chair.jpg",
+    "img_id": "2008_000835",
+    "box_idx": 11,
+    "x1": 408,
+    "y1": 244,
+    "x2": 485,
+    "y2": 374,
+    "conf": 0.349,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "chair",
+      "chair",
+      "diningtable"
+    ],
+    "true_label": "chair"
+  },
+  {
+    "filename": "2008_000835_12_conf0.31_diningtable.jpg",
+    "img_id": "2008_000835",
+    "box_idx": 12,
+    "x1": 6,
+    "y1": 122,
+    "x2": 448,
+    "y2": 375,
+    "conf": 0.312,
+    "yolo_pred": "diningtable",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "chair",
+      "chair",
+      "diningtable"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000835_13_conf0.30_person.jpg",
+    "img_id": "2008_000835",
+    "box_idx": 13,
+    "x1": 346,
+    "y1": 84,
+    "x2": 458,
+    "y2": 151,
+    "conf": 0.302,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "chair",
+      "chair",
+      "diningtable"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000835_14_conf0.28_person.jpg",
+    "img_id": "2008_000835",
+    "box_idx": 14,
+    "x1": 0,
+    "y1": 213,
+    "x2": 24,
+    "y2": 375,
+    "conf": 0.282,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "chair",
+      "chair",
+      "diningtable"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000853_0_conf0.48_bottle.jpg",
+    "img_id": "2008_000853",
+    "box_idx": 0,
+    "x1": 216,
+    "y1": 7,
+    "x2": 265,
+    "y2": 399,
+    "conf": 0.478,
+    "yolo_pred": "bottle",
+    "gt_classes": [
+      "cat"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000868_10_conf0.41_person.jpg",
+    "img_id": "2008_000868",
+    "box_idx": 10,
+    "x1": 79,
+    "y1": 313,
+    "x2": 97,
+    "y2": 381,
+    "conf": 0.408,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "car"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000868_11_conf0.37_person.jpg",
+    "img_id": "2008_000868",
+    "box_idx": 11,
+    "x1": 213,
+    "y1": 317,
+    "x2": 239,
+    "y2": 389,
+    "conf": 0.375,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "car"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000868_12_conf0.34_person.jpg",
+    "img_id": "2008_000868",
+    "box_idx": 12,
+    "x1": 305,
+    "y1": 329,
+    "x2": 325,
+    "y2": 391,
+    "conf": 0.337,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "car"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000880_5_conf0.45_horse.jpg",
+    "img_id": "2008_000880",
+    "box_idx": 5,
+    "x1": 421,
+    "y1": 144,
+    "x2": 499,
+    "y2": 262,
+    "conf": 0.447,
+    "yolo_pred": "horse",
+    "gt_classes": [
+      "car",
+      "horse",
+      "person",
+      "car",
+      "horse",
+      "person",
+      "person",
+      "horse",
+      "person",
+      "person"
+    ],
+    "true_label": "horse"
+  },
+  {
+    "filename": "2008_000880_6_conf0.26_person.jpg",
+    "img_id": "2008_000880",
+    "box_idx": 6,
+    "x1": 392,
+    "y1": 117,
+    "x2": 409,
+    "y2": 142,
+    "conf": 0.258,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "car",
+      "horse",
+      "person",
+      "car",
+      "horse",
+      "person",
+      "person",
+      "horse",
+      "person",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000885_4_conf0.27_bottle.jpg",
+    "img_id": "2008_000885",
+    "box_idx": 4,
+    "x1": 154,
+    "y1": 173,
+    "x2": 168,
+    "y2": 216,
+    "conf": 0.267,
+    "yolo_pred": "bottle",
+    "gt_classes": [
+      "bottle",
+      "person",
+      "person",
+      "person",
+      "diningtable"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000904_4_conf0.29_person.jpg",
+    "img_id": "2008_000904",
+    "box_idx": 4,
+    "x1": 131,
+    "y1": 24,
+    "x2": 384,
+    "y2": 319,
+    "conf": 0.294,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "chair",
+      "tvmonitor",
+      "car",
+      "chair"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000936_2_conf0.35_chair.jpg",
+    "img_id": "2008_000936",
+    "box_idx": 2,
+    "x1": 0,
+    "y1": 2,
+    "x2": 334,
+    "y2": 442,
+    "conf": 0.35,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "person",
+      "chair"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_000952_5_conf0.50_car.jpg",
+    "img_id": "2008_000952",
+    "box_idx": 5,
+    "x1": 354,
+    "y1": 259,
+    "x2": 499,
+    "y2": 374,
+    "conf": 0.496,
+    "yolo_pred": "car",
+    "gt_classes": [
+      "car",
+      "car",
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "true_label": "car"
+  },
+  {
+    "filename": "2008_000952_6_conf0.49_bottle.jpg",
+    "img_id": "2008_000952",
+    "box_idx": 6,
+    "x1": 367,
+    "y1": 262,
+    "x2": 500,
+    "y2": 350,
+    "conf": 0.489,
+    "yolo_pred": "bottle",
+    "gt_classes": [
+      "car",
+      "car",
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "true_label": "car"
+  },
+  {
+    "filename": "2008_000952_7_conf0.40_bottle.jpg",
+    "img_id": "2008_000952",
+    "box_idx": 7,
+    "x1": 354,
+    "y1": 256,
+    "x2": 499,
+    "y2": 374,
+    "conf": 0.405,
+    "yolo_pred": "bottle",
+    "gt_classes": [
+      "car",
+      "car",
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "true_label": "car"
+  },
+  {
+    "filename": "2008_000957_2_conf0.28_person.jpg",
+    "img_id": "2008_000957",
+    "box_idx": 2,
+    "x1": 323,
+    "y1": 266,
+    "x2": 336,
+    "y2": 293,
+    "conf": 0.276,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "boat"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000971_3_conf0.38_person.jpg",
+    "img_id": "2008_000971",
+    "box_idx": 3,
+    "x1": 186,
+    "y1": 259,
+    "x2": 197,
+    "y2": 278,
+    "conf": 0.377,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_000984_3_conf0.39_person.jpg",
+    "img_id": "2008_000984",
+    "box_idx": 3,
+    "x1": 0,
+    "y1": 13,
+    "x2": 30,
+    "y2": 334,
+    "conf": 0.393,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001007_2_conf0.47_motorbike.jpg",
+    "img_id": "2008_001007",
+    "box_idx": 2,
+    "x1": 98,
+    "y1": 207,
+    "x2": 318,
+    "y2": 374,
+    "conf": 0.466,
+    "yolo_pred": "motorbike",
+    "gt_classes": [
+      "motorbike",
+      "person",
+      "car"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001009_3_conf0.44_person.jpg",
+    "img_id": "2008_001009",
+    "box_idx": 3,
+    "x1": 121,
+    "y1": 61,
+    "x2": 312,
+    "y2": 418,
+    "conf": 0.444,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001012_0_conf0.49_person.jpg",
+    "img_id": "2008_001012",
+    "box_idx": 0,
+    "x1": 20,
+    "y1": 9,
+    "x2": 423,
+    "y2": 374,
+    "conf": 0.495,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001013_3_conf0.29_person.jpg",
+    "img_id": "2008_001013",
+    "box_idx": 3,
+    "x1": 0,
+    "y1": 175,
+    "x2": 17,
+    "y2": 443,
+    "conf": 0.29,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "boat",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001024_3_conf0.43_person.jpg",
+    "img_id": "2008_001024",
+    "box_idx": 3,
+    "x1": 147,
+    "y1": 263,
+    "x2": 169,
+    "y2": 333,
+    "conf": 0.427,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001034_6_conf0.35_chair.jpg",
+    "img_id": "2008_001034",
+    "box_idx": 6,
+    "x1": 101,
+    "y1": 182,
+    "x2": 221,
+    "y2": 335,
+    "conf": 0.346,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "chair",
+      "chair"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001046_19_conf0.34_person.jpg",
+    "img_id": "2008_001046",
+    "box_idx": 19,
+    "x1": 472,
+    "y1": 170,
+    "x2": 499,
+    "y2": 293,
+    "conf": 0.337,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001062_8_conf0.43_cow.jpg",
+    "img_id": "2008_001062",
+    "box_idx": 8,
+    "x1": 0,
+    "y1": 98,
+    "x2": 33,
+    "y2": 239,
+    "conf": 0.426,
+    "yolo_pred": "cow",
+    "gt_classes": [
+      "cow",
+      "cow",
+      "cow",
+      "cow",
+      "cow",
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "true_label": "cow"
+  },
+  {
+    "filename": "2008_001063_5_conf0.43_person.jpg",
+    "img_id": "2008_001063",
+    "box_idx": 5,
+    "x1": 125,
+    "y1": 122,
+    "x2": 185,
+    "y2": 374,
+    "conf": 0.433,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001063_6_conf0.31_aeroplane.jpg",
+    "img_id": "2008_001063",
+    "box_idx": 6,
+    "x1": 0,
+    "y1": 0,
+    "x2": 499,
+    "y2": 375,
+    "conf": 0.308,
+    "yolo_pred": "aeroplane",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001068_1_conf0.47_horse.jpg",
+    "img_id": "2008_001068",
+    "box_idx": 1,
+    "x1": 13,
+    "y1": 71,
+    "x2": 286,
+    "y2": 235,
+    "conf": 0.472,
+    "yolo_pred": "horse",
+    "gt_classes": [
+      "horse",
+      "person",
+      "horse",
+      "person"
+    ],
+    "true_label": "horse"
+  },
+  {
+    "filename": "2008_001074_1_conf0.50_person.jpg",
+    "img_id": "2008_001074",
+    "box_idx": 1,
+    "x1": 14,
+    "y1": 114,
+    "x2": 279,
+    "y2": 497,
+    "conf": 0.499,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001077_2_conf0.36_chair.jpg",
+    "img_id": "2008_001077",
+    "box_idx": 2,
+    "x1": 382,
+    "y1": 78,
+    "x2": 499,
+    "y2": 344,
+    "conf": 0.361,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "diningtable",
+      "bottle",
+      "chair",
+      "chair",
+      "chair"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001078_3_conf0.34_pottedplant.jpg",
+    "img_id": "2008_001078",
+    "box_idx": 3,
+    "x1": 0,
+    "y1": 0,
+    "x2": 128,
+    "y2": 153,
+    "conf": 0.34,
+    "yolo_pred": "pottedplant",
+    "gt_classes": [
+      "cat",
+      "pottedplant"
+    ],
+    "true_label": "pottedplant"
+  },
+  {
+    "filename": "2008_001078_4_conf0.27_pottedplant.jpg",
+    "img_id": "2008_001078",
+    "box_idx": 4,
+    "x1": 34,
+    "y1": 5,
+    "x2": 129,
+    "y2": 157,
+    "conf": 0.272,
+    "yolo_pred": "pottedplant",
+    "gt_classes": [
+      "cat",
+      "pottedplant"
+    ],
+    "true_label": "pottedplant"
+  },
+  {
+    "filename": "2008_001080_3_conf0.37_person.jpg",
+    "img_id": "2008_001080",
+    "box_idx": 3,
+    "x1": 202,
+    "y1": 365,
+    "x2": 212,
+    "y2": 394,
+    "conf": 0.37,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001090_2_conf0.43_person.jpg",
+    "img_id": "2008_001090",
+    "box_idx": 2,
+    "x1": 32,
+    "y1": 226,
+    "x2": 342,
+    "y2": 499,
+    "conf": 0.434,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001090_3_conf0.42_person.jpg",
+    "img_id": "2008_001090",
+    "box_idx": 3,
+    "x1": 160,
+    "y1": 226,
+    "x2": 341,
+    "y2": 499,
+    "conf": 0.421,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001122_2_conf0.37_person.jpg",
+    "img_id": "2008_001122",
+    "box_idx": 2,
+    "x1": 248,
+    "y1": 0,
+    "x2": 332,
+    "y2": 241,
+    "conf": 0.372,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001135_0_conf0.27_train.jpg",
+    "img_id": "2008_001135",
+    "box_idx": 0,
+    "x1": 131,
+    "y1": 161,
+    "x2": 453,
+    "y2": 214,
+    "conf": 0.268,
+    "yolo_pred": "train",
+    "gt_classes": [
+      "boat"
+    ],
+    "true_label": "boat"
+  },
+  {
+    "filename": "2008_001136_4_conf0.43_boat.jpg",
+    "img_id": "2008_001136",
+    "box_idx": 4,
+    "x1": 475,
+    "y1": 178,
+    "x2": 499,
+    "y2": 212,
+    "conf": 0.431,
+    "yolo_pred": "boat",
+    "gt_classes": [
+      "boat",
+      "boat",
+      "boat"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001136_5_conf0.33_boat.jpg",
+    "img_id": "2008_001136",
+    "box_idx": 5,
+    "x1": 448,
+    "y1": 191,
+    "x2": 479,
+    "y2": 210,
+    "conf": 0.326,
+    "yolo_pred": "boat",
+    "gt_classes": [
+      "boat",
+      "boat",
+      "boat"
+    ],
+    "true_label": "boat"
+  },
+  {
+    "filename": "2008_001140_2_conf0.37_bird.jpg",
+    "img_id": "2008_001140",
+    "box_idx": 2,
+    "x1": 296,
+    "y1": 26,
+    "x2": 357,
+    "y2": 91,
+    "conf": 0.373,
+    "yolo_pred": "bird",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001150_1_conf0.37_person.jpg",
+    "img_id": "2008_001150",
+    "box_idx": 1,
+    "x1": 131,
+    "y1": 268,
+    "x2": 204,
+    "y2": 329,
+    "conf": 0.366,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "motorbike"
+    ],
+    "true_label": "motorbike"
+  },
+  {
+    "filename": "2008_001155_5_conf0.33_chair.jpg",
+    "img_id": "2008_001155",
+    "box_idx": 5,
+    "x1": 0,
+    "y1": 173,
+    "x2": 127,
+    "y2": 269,
+    "conf": 0.326,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "diningtable",
+      "chair",
+      "chair",
+      "chair"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001155_6_conf0.27_chair.jpg",
+    "img_id": "2008_001155",
+    "box_idx": 6,
+    "x1": 37,
+    "y1": 201,
+    "x2": 138,
+    "y2": 257,
+    "conf": 0.272,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "diningtable",
+      "chair",
+      "chair",
+      "chair"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001167_1_conf0.45_person.jpg",
+    "img_id": "2008_001167",
+    "box_idx": 1,
+    "x1": 406,
+    "y1": 74,
+    "x2": 476,
+    "y2": 306,
+    "conf": 0.451,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "boat",
+      "boat",
+      "boat",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001167_2_conf0.33_sheep.jpg",
+    "img_id": "2008_001167",
+    "box_idx": 2,
+    "x1": 49,
+    "y1": 59,
+    "x2": 72,
+    "y2": 71,
+    "conf": 0.325,
+    "yolo_pred": "sheep",
+    "gt_classes": [
+      "boat",
+      "boat",
+      "boat",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001167_3_conf0.32_boat.jpg",
+    "img_id": "2008_001167",
+    "box_idx": 3,
+    "x1": 6,
+    "y1": 73,
+    "x2": 485,
+    "y2": 290,
+    "conf": 0.317,
+    "yolo_pred": "boat",
+    "gt_classes": [
+      "boat",
+      "boat",
+      "boat",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001192_0_conf0.41_person.jpg",
+    "img_id": "2008_001192",
+    "box_idx": 0,
+    "x1": 16,
+    "y1": 125,
+    "x2": 312,
+    "y2": 480,
+    "conf": 0.408,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001199_3_conf0.38_person.jpg",
+    "img_id": "2008_001199",
+    "box_idx": 3,
+    "x1": 181,
+    "y1": 84,
+    "x2": 269,
+    "y2": 309,
+    "conf": 0.376,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "bottle",
+      "chair",
+      "person",
+      "person",
+      "bottle",
+      "bottle",
+      "bottle",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001218_1_conf0.32_dog.jpg",
+    "img_id": "2008_001218",
+    "box_idx": 1,
+    "x1": 0,
+    "y1": 12,
+    "x2": 372,
+    "y2": 500,
+    "conf": 0.321,
+    "yolo_pred": "dog",
+    "gt_classes": [
+      "horse"
+    ],
+    "true_label": "horse"
+  },
+  {
+    "filename": "2008_001227_2_conf0.38_aeroplane.jpg",
+    "img_id": "2008_001227",
+    "box_idx": 2,
+    "x1": 0,
+    "y1": 103,
+    "x2": 491,
+    "y2": 373,
+    "conf": 0.377,
+    "yolo_pred": "aeroplane",
+    "gt_classes": [
+      "person",
+      "person",
+      "aeroplane"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001241_1_conf0.25_horse.jpg",
+    "img_id": "2008_001241",
+    "box_idx": 1,
+    "x1": 182,
+    "y1": 126,
+    "x2": 420,
+    "y2": 329,
+    "conf": 0.254,
+    "yolo_pred": "horse",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001249_1_conf0.45_person.jpg",
+    "img_id": "2008_001249",
+    "box_idx": 1,
+    "x1": 0,
+    "y1": 139,
+    "x2": 15,
+    "y2": 225,
+    "conf": 0.453,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001255_2_conf0.34_chair.jpg",
+    "img_id": "2008_001255",
+    "box_idx": 2,
+    "x1": 0,
+    "y1": 144,
+    "x2": 53,
+    "y2": 374,
+    "conf": 0.34,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001275_3_conf0.27_person.jpg",
+    "img_id": "2008_001275",
+    "box_idx": 3,
+    "x1": 0,
+    "y1": 132,
+    "x2": 107,
+    "y2": 374,
+    "conf": 0.266,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001283_2_conf0.41_person.jpg",
+    "img_id": "2008_001283",
+    "box_idx": 2,
+    "x1": 0,
+    "y1": 23,
+    "x2": 281,
+    "y2": 375,
+    "conf": 0.409,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "bird",
+      "bird",
+      "pottedplant"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001283_3_conf0.41_sofa.jpg",
+    "img_id": "2008_001283",
+    "box_idx": 3,
+    "x1": 0,
+    "y1": 20,
+    "x2": 277,
+    "y2": 374,
+    "conf": 0.408,
+    "yolo_pred": "sofa",
+    "gt_classes": [
+      "person",
+      "bird",
+      "bird",
+      "pottedplant"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001283_4_conf0.39_person.jpg",
+    "img_id": "2008_001283",
+    "box_idx": 4,
+    "x1": 452,
+    "y1": 18,
+    "x2": 499,
+    "y2": 279,
+    "conf": 0.394,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "bird",
+      "bird",
+      "pottedplant"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001304_17_conf0.27_bottle.jpg",
+    "img_id": "2008_001304",
+    "box_idx": 17,
+    "x1": 0,
+    "y1": 258,
+    "x2": 20,
+    "y2": 374,
+    "conf": 0.273,
+    "yolo_pred": "bottle",
+    "gt_classes": [
+      "bottle",
+      "bottle",
+      "bottle",
+      "bottle",
+      "bottle",
+      "bottle",
+      "bottle",
+      "bottle",
+      "bottle",
+      "bottle",
+      "bottle",
+      "bottle",
+      "bottle",
+      "bottle",
+      "bottle",
+      "bottle",
+      "bottle",
+      "bottle",
+      "person",
+      "person"
+    ],
+    "true_label": "bottle"
+  },
+  {
+    "filename": "2008_001306_0_conf0.46_bird.jpg",
+    "img_id": "2008_001306",
+    "box_idx": 0,
+    "x1": 89,
+    "y1": 124,
+    "x2": 181,
+    "y2": 299,
+    "conf": 0.46,
+    "yolo_pred": "bird",
+    "gt_classes": [
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001306_1_conf0.31_person.jpg",
+    "img_id": "2008_001306",
+    "box_idx": 1,
+    "x1": 269,
+    "y1": 174,
+    "x2": 331,
+    "y2": 281,
+    "conf": 0.309,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001308_2_conf0.33_car.jpg",
+    "img_id": "2008_001308",
+    "box_idx": 2,
+    "x1": 408,
+    "y1": 52,
+    "x2": 499,
+    "y2": 173,
+    "conf": 0.331,
+    "yolo_pred": "car",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "car"
+  },
+  {
+    "filename": "2008_001308_3_conf0.30_person.jpg",
+    "img_id": "2008_001308",
+    "box_idx": 3,
+    "x1": 11,
+    "y1": 110,
+    "x2": 499,
+    "y2": 372,
+    "conf": 0.302,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001318_1_conf0.25_bottle.jpg",
+    "img_id": "2008_001318",
+    "box_idx": 1,
+    "x1": 0,
+    "y1": 0,
+    "x2": 373,
+    "y2": 496,
+    "conf": 0.254,
+    "yolo_pred": "bottle",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001320_2_conf0.48_chair.jpg",
+    "img_id": "2008_001320",
+    "box_idx": 2,
+    "x1": 457,
+    "y1": 229,
+    "x2": 479,
+    "y2": 360,
+    "conf": 0.482,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "person",
+      "chair",
+      "chair",
+      "chair",
+      "diningtable"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001320_3_conf0.43_chair.jpg",
+    "img_id": "2008_001320",
+    "box_idx": 3,
+    "x1": 176,
+    "y1": 237,
+    "x2": 313,
+    "y2": 310,
+    "conf": 0.428,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "person",
+      "chair",
+      "chair",
+      "chair",
+      "diningtable"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001320_4_conf0.35_diningtable.jpg",
+    "img_id": "2008_001320",
+    "box_idx": 4,
+    "x1": 63,
+    "y1": 307,
+    "x2": 478,
+    "y2": 359,
+    "conf": 0.351,
+    "yolo_pred": "diningtable",
+    "gt_classes": [
+      "person",
+      "chair",
+      "chair",
+      "chair",
+      "diningtable"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001333_3_conf0.44_chair.jpg",
+    "img_id": "2008_001333",
+    "box_idx": 3,
+    "x1": 0,
+    "y1": 157,
+    "x2": 161,
+    "y2": 500,
+    "conf": 0.438,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "sofa",
+      "person",
+      "person",
+      "chair",
+      "bottle",
+      "bottle",
+      "chair"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001333_4_conf0.43_person.jpg",
+    "img_id": "2008_001333",
+    "box_idx": 4,
+    "x1": 123,
+    "y1": 174,
+    "x2": 358,
+    "y2": 452,
+    "conf": 0.434,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "sofa",
+      "person",
+      "person",
+      "chair",
+      "bottle",
+      "bottle",
+      "chair"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001333_5_conf0.41_bottle.jpg",
+    "img_id": "2008_001333",
+    "box_idx": 5,
+    "x1": 304,
+    "y1": 265,
+    "x2": 340,
+    "y2": 341,
+    "conf": 0.414,
+    "yolo_pred": "bottle",
+    "gt_classes": [
+      "sofa",
+      "person",
+      "person",
+      "chair",
+      "bottle",
+      "bottle",
+      "chair"
+    ],
+    "true_label": "bottle"
+  },
+  {
+    "filename": "2008_001333_6_conf0.39_bottle.jpg",
+    "img_id": "2008_001333",
+    "box_idx": 6,
+    "x1": 255,
+    "y1": 126,
+    "x2": 272,
+    "y2": 174,
+    "conf": 0.387,
+    "yolo_pred": "bottle",
+    "gt_classes": [
+      "sofa",
+      "person",
+      "person",
+      "chair",
+      "bottle",
+      "bottle",
+      "chair"
+    ],
+    "true_label": "bottle"
+  },
+  {
+    "filename": "2008_001333_7_conf0.30_sofa.jpg",
+    "img_id": "2008_001333",
+    "box_idx": 7,
+    "x1": 44,
+    "y1": 0,
+    "x2": 374,
+    "y2": 235,
+    "conf": 0.302,
+    "yolo_pred": "sofa",
+    "gt_classes": [
+      "sofa",
+      "person",
+      "person",
+      "chair",
+      "bottle",
+      "bottle",
+      "chair"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001334_2_conf0.43_train.jpg",
+    "img_id": "2008_001334",
+    "box_idx": 2,
+    "x1": 0,
+    "y1": 117,
+    "x2": 476,
+    "y2": 333,
+    "conf": 0.426,
+    "yolo_pred": "train",
+    "gt_classes": [
+      "car"
+    ],
+    "true_label": "car"
+  },
+  {
+    "filename": "2008_001338_2_conf0.49_pottedplant.jpg",
+    "img_id": "2008_001338",
+    "box_idx": 2,
+    "x1": 417,
+    "y1": 89,
+    "x2": 447,
+    "y2": 140,
+    "conf": 0.493,
+    "yolo_pred": "pottedplant",
+    "gt_classes": [
+      "person",
+      "person",
+      "chair",
+      "pottedplant",
+      "pottedplant",
+      "chair",
+      "chair"
+    ],
+    "true_label": "pottedplant"
+  },
+  {
+    "filename": "2008_001338_3_conf0.39_pottedplant.jpg",
+    "img_id": "2008_001338",
+    "box_idx": 3,
+    "x1": 417,
+    "y1": 89,
+    "x2": 447,
+    "y2": 120,
+    "conf": 0.394,
+    "yolo_pred": "pottedplant",
+    "gt_classes": [
+      "person",
+      "person",
+      "chair",
+      "pottedplant",
+      "pottedplant",
+      "chair",
+      "chair"
+    ],
+    "true_label": "pottedplant"
+  },
+  {
+    "filename": "2008_001349_1_conf0.47_person.jpg",
+    "img_id": "2008_001349",
+    "box_idx": 1,
+    "x1": 76,
+    "y1": 162,
+    "x2": 333,
+    "y2": 500,
+    "conf": 0.471,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001349_2_conf0.45_person.jpg",
+    "img_id": "2008_001349",
+    "box_idx": 2,
+    "x1": 206,
+    "y1": 160,
+    "x2": 331,
+    "y2": 498,
+    "conf": 0.452,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001350_0_conf0.40_cat.jpg",
+    "img_id": "2008_001350",
+    "box_idx": 0,
+    "x1": 16,
+    "y1": 32,
+    "x2": 468,
+    "y2": 316,
+    "conf": 0.398,
+    "yolo_pred": "cat",
+    "gt_classes": [
+      "cat"
+    ],
+    "true_label": "cat"
+  },
+  {
+    "filename": "2008_001356_1_conf0.26_boat.jpg",
+    "img_id": "2008_001356",
+    "box_idx": 1,
+    "x1": 0,
+    "y1": 0,
+    "x2": 500,
+    "y2": 399,
+    "conf": 0.263,
+    "yolo_pred": "boat",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001366_2_conf0.48_chair.jpg",
+    "img_id": "2008_001366",
+    "box_idx": 2,
+    "x1": 139,
+    "y1": 9,
+    "x2": 500,
+    "y2": 375,
+    "conf": 0.479,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "person",
+      "sofa",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001376_6_conf0.50_person.jpg",
+    "img_id": "2008_001376",
+    "box_idx": 6,
+    "x1": 489,
+    "y1": 65,
+    "x2": 499,
+    "y2": 139,
+    "conf": 0.499,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001376_7_conf0.45_bicycle.jpg",
+    "img_id": "2008_001376",
+    "box_idx": 7,
+    "x1": 228,
+    "y1": 287,
+    "x2": 386,
+    "y2": 332,
+    "conf": 0.452,
+    "yolo_pred": "bicycle",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001376_8_conf0.44_person.jpg",
+    "img_id": "2008_001376",
+    "box_idx": 8,
+    "x1": 85,
+    "y1": 59,
+    "x2": 108,
+    "y2": 138,
+    "conf": 0.441,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001406_2_conf0.42_motorbike.jpg",
+    "img_id": "2008_001406",
+    "box_idx": 2,
+    "x1": 74,
+    "y1": 2,
+    "x2": 347,
+    "y2": 250,
+    "conf": 0.417,
+    "yolo_pred": "motorbike",
+    "gt_classes": [
+      "motorbike",
+      "motorbike",
+      "motorbike"
+    ],
+    "true_label": "motorbike"
+  },
+  {
+    "filename": "2008_001410_1_conf0.46_dog.jpg",
+    "img_id": "2008_001410",
+    "box_idx": 1,
+    "x1": 375,
+    "y1": 0,
+    "x2": 410,
+    "y2": 42,
+    "conf": 0.459,
+    "yolo_pred": "dog",
+    "gt_classes": [
+      "dog",
+      "dog"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001415_1_conf0.46_bird.jpg",
+    "img_id": "2008_001415",
+    "box_idx": 1,
+    "x1": 169,
+    "y1": 126,
+    "x2": 288,
+    "y2": 221,
+    "conf": 0.463,
+    "yolo_pred": "bird",
+    "gt_classes": [
+      "bird",
+      "bird"
+    ],
+    "true_label": "bird"
+  },
+  {
+    "filename": "2008_001429_4_conf0.34_pottedplant.jpg",
+    "img_id": "2008_001429",
+    "box_idx": 4,
+    "x1": 112,
+    "y1": 71,
+    "x2": 500,
+    "y2": 332,
+    "conf": 0.34,
+    "yolo_pred": "pottedplant",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001437_3_conf0.32_train.jpg",
+    "img_id": "2008_001437",
+    "box_idx": 3,
+    "x1": 0,
+    "y1": 0,
+    "x2": 408,
+    "y2": 374,
+    "conf": 0.319,
+    "yolo_pred": "train",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001437_4_conf0.31_person.jpg",
+    "img_id": "2008_001437",
+    "box_idx": 4,
+    "x1": 247,
+    "y1": 186,
+    "x2": 372,
+    "y2": 374,
+    "conf": 0.313,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001445_4_conf0.27_car.jpg",
+    "img_id": "2008_001445",
+    "box_idx": 4,
+    "x1": 162,
+    "y1": 41,
+    "x2": 275,
+    "y2": 72,
+    "conf": 0.268,
+    "yolo_pred": "car",
+    "gt_classes": [
+      "car",
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "true_label": "car"
+  },
+  {
+    "filename": "2008_001451_7_conf0.33_pottedplant.jpg",
+    "img_id": "2008_001451",
+    "box_idx": 7,
+    "x1": 316,
+    "y1": 190,
+    "x2": 365,
+    "y2": 259,
+    "conf": 0.333,
+    "yolo_pred": "pottedplant",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "diningtable",
+      "chair",
+      "chair",
+      "pottedplant",
+      "chair",
+      "pottedplant",
+      "chair",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001451_8_conf0.27_person.jpg",
+    "img_id": "2008_001451",
+    "box_idx": 8,
+    "x1": 395,
+    "y1": 277,
+    "x2": 499,
+    "y2": 374,
+    "conf": 0.273,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "diningtable",
+      "chair",
+      "chair",
+      "pottedplant",
+      "chair",
+      "pottedplant",
+      "chair",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001451_9_conf0.26_person.jpg",
+    "img_id": "2008_001451",
+    "box_idx": 9,
+    "x1": 319,
+    "y1": 190,
+    "x2": 360,
+    "y2": 227,
+    "conf": 0.258,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "diningtable",
+      "chair",
+      "chair",
+      "pottedplant",
+      "chair",
+      "pottedplant",
+      "chair",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001468_0_conf0.40_aeroplane.jpg",
+    "img_id": "2008_001468",
+    "box_idx": 0,
+    "x1": 5,
+    "y1": 92,
+    "x2": 496,
+    "y2": 368,
+    "conf": 0.395,
+    "yolo_pred": "aeroplane",
+    "gt_classes": [
+      "aeroplane"
+    ],
+    "true_label": "aeroplane"
+  },
+  {
+    "filename": "2008_001478_2_conf0.28_dog.jpg",
+    "img_id": "2008_001478",
+    "box_idx": 2,
+    "x1": 0,
+    "y1": 166,
+    "x2": 497,
+    "y2": 374,
+    "conf": 0.278,
+    "yolo_pred": "dog",
+    "gt_classes": [
+      "dog"
+    ],
+    "true_label": "dog"
+  },
+  {
+    "filename": "2008_001486_3_conf0.38_person.jpg",
+    "img_id": "2008_001486",
+    "box_idx": 3,
+    "x1": 478,
+    "y1": 96,
+    "x2": 499,
+    "y2": 356,
+    "conf": 0.381,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "bottle",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001513_1_conf0.36_bottle.jpg",
+    "img_id": "2008_001513",
+    "box_idx": 1,
+    "x1": 0,
+    "y1": 283,
+    "x2": 56,
+    "y2": 349,
+    "conf": 0.362,
+    "yolo_pred": "bottle",
+    "gt_classes": [
+      "cat"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001516_7_conf0.49_person.jpg",
+    "img_id": "2008_001516",
+    "box_idx": 7,
+    "x1": 269,
+    "y1": 287,
+    "x2": 290,
+    "y2": 312,
+    "conf": 0.492,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "boat"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001516_8_conf0.37_person.jpg",
+    "img_id": "2008_001516",
+    "box_idx": 8,
+    "x1": 40,
+    "y1": 293,
+    "x2": 58,
+    "y2": 317,
+    "conf": 0.372,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "boat"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001516_9_conf0.26_person.jpg",
+    "img_id": "2008_001516",
+    "box_idx": 9,
+    "x1": 97,
+    "y1": 299,
+    "x2": 107,
+    "y2": 312,
+    "conf": 0.263,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "boat"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001527_3_conf0.43_sofa.jpg",
+    "img_id": "2008_001527",
+    "box_idx": 3,
+    "x1": 97,
+    "y1": 208,
+    "x2": 499,
+    "y2": 374,
+    "conf": 0.435,
+    "yolo_pred": "sofa",
+    "gt_classes": [
+      "person",
+      "person",
+      "chair"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001534_4_conf0.36_bottle.jpg",
+    "img_id": "2008_001534",
+    "box_idx": 4,
+    "x1": 438,
+    "y1": 167,
+    "x2": 499,
+    "y2": 311,
+    "conf": 0.362,
+    "yolo_pred": "bottle",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001536_3_conf0.45_person.jpg",
+    "img_id": "2008_001536",
+    "box_idx": 3,
+    "x1": 215,
+    "y1": 116,
+    "x2": 284,
+    "y2": 176,
+    "conf": 0.451,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001536_4_conf0.25_person.jpg",
+    "img_id": "2008_001536",
+    "box_idx": 4,
+    "x1": 63,
+    "y1": 27,
+    "x2": 472,
+    "y2": 332,
+    "conf": 0.254,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001539_2_conf0.49_person.jpg",
+    "img_id": "2008_001539",
+    "box_idx": 2,
+    "x1": 239,
+    "y1": 41,
+    "x2": 500,
+    "y2": 339,
+    "conf": 0.489,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001539_3_conf0.40_bottle.jpg",
+    "img_id": "2008_001539",
+    "box_idx": 3,
+    "x1": 134,
+    "y1": 174,
+    "x2": 198,
+    "y2": 292,
+    "conf": 0.4,
+    "yolo_pred": "bottle",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "boat"
+  },
+  {
+    "filename": "2008_001540_2_conf0.45_person.jpg",
+    "img_id": "2008_001540",
+    "box_idx": 2,
+    "x1": 229,
+    "y1": 90,
+    "x2": 330,
+    "y2": 331,
+    "conf": 0.452,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001540_3_conf0.35_person.jpg",
+    "img_id": "2008_001540",
+    "box_idx": 3,
+    "x1": 275,
+    "y1": 117,
+    "x2": 332,
+    "y2": 273,
+    "conf": 0.348,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001553_0_conf0.44_person.jpg",
+    "img_id": "2008_001553",
+    "box_idx": 0,
+    "x1": 245,
+    "y1": 109,
+    "x2": 324,
+    "y2": 312,
+    "conf": 0.441,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001564_1_conf0.42_boat.jpg",
+    "img_id": "2008_001564",
+    "box_idx": 1,
+    "x1": 84,
+    "y1": 154,
+    "x2": 497,
+    "y2": 322,
+    "conf": 0.417,
+    "yolo_pred": "boat",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001564_2_conf0.28_boat.jpg",
+    "img_id": "2008_001564",
+    "box_idx": 2,
+    "x1": 80,
+    "y1": 220,
+    "x2": 499,
+    "y2": 322,
+    "conf": 0.279,
+    "yolo_pred": "boat",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001575_1_conf0.30_boat.jpg",
+    "img_id": "2008_001575",
+    "box_idx": 1,
+    "x1": 163,
+    "y1": 213,
+    "x2": 201,
+    "y2": 228,
+    "conf": 0.303,
+    "yolo_pred": "boat",
+    "gt_classes": [
+      "boat",
+      "boat"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001580_0_conf0.47_aeroplane.jpg",
+    "img_id": "2008_001580",
+    "box_idx": 0,
+    "x1": 73,
+    "y1": 123,
+    "x2": 427,
+    "y2": 200,
+    "conf": 0.474,
+    "yolo_pred": "aeroplane",
+    "gt_classes": [
+      "boat"
+    ],
+    "true_label": "boat"
+  },
+  {
+    "filename": "2008_001589_1_conf0.40_chair.jpg",
+    "img_id": "2008_001589",
+    "box_idx": 1,
+    "x1": 1,
+    "y1": 17,
+    "x2": 289,
+    "y2": 483,
+    "conf": 0.4,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "person",
+      "sofa"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001590_1_conf0.25_person.jpg",
+    "img_id": "2008_001590",
+    "box_idx": 1,
+    "x1": 279,
+    "y1": 0,
+    "x2": 457,
+    "y2": 158,
+    "conf": 0.253,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001605_2_conf0.33_person.jpg",
+    "img_id": "2008_001605",
+    "box_idx": 2,
+    "x1": 150,
+    "y1": 72,
+    "x2": 277,
+    "y2": 318,
+    "conf": 0.332,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001607_3_conf0.39_chair.jpg",
+    "img_id": "2008_001607",
+    "box_idx": 3,
+    "x1": 261,
+    "y1": 290,
+    "x2": 455,
+    "y2": 374,
+    "conf": 0.387,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001619_1_conf0.50_person.jpg",
+    "img_id": "2008_001619",
+    "box_idx": 1,
+    "x1": 20,
+    "y1": 217,
+    "x2": 374,
+    "y2": 492,
+    "conf": 0.497,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001619_2_conf0.43_dog.jpg",
+    "img_id": "2008_001619",
+    "box_idx": 2,
+    "x1": 255,
+    "y1": 220,
+    "x2": 374,
+    "y2": 269,
+    "conf": 0.431,
+    "yolo_pred": "dog",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001629_2_conf0.48_person.jpg",
+    "img_id": "2008_001629",
+    "box_idx": 2,
+    "x1": 0,
+    "y1": 129,
+    "x2": 112,
+    "y2": 374,
+    "conf": 0.482,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "bottle"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001629_3_conf0.28_person.jpg",
+    "img_id": "2008_001629",
+    "box_idx": 3,
+    "x1": 0,
+    "y1": 131,
+    "x2": 56,
+    "y2": 374,
+    "conf": 0.277,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "bottle"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001638_5_conf0.41_person.jpg",
+    "img_id": "2008_001638",
+    "box_idx": 5,
+    "x1": 267,
+    "y1": 33,
+    "x2": 363,
+    "y2": 343,
+    "conf": 0.406,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "bottle",
+      "bottle",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001638_6_conf0.25_person.jpg",
+    "img_id": "2008_001638",
+    "box_idx": 6,
+    "x1": 472,
+    "y1": 102,
+    "x2": 499,
+    "y2": 321,
+    "conf": 0.254,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "bottle",
+      "bottle",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001648_1_conf0.36_person.jpg",
+    "img_id": "2008_001648",
+    "box_idx": 1,
+    "x1": 0,
+    "y1": 441,
+    "x2": 90,
+    "y2": 499,
+    "conf": 0.363,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001649_4_conf0.45_person.jpg",
+    "img_id": "2008_001649",
+    "box_idx": 4,
+    "x1": 131,
+    "y1": 223,
+    "x2": 181,
+    "y2": 296,
+    "conf": 0.451,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "boat",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001649_5_conf0.43_person.jpg",
+    "img_id": "2008_001649",
+    "box_idx": 5,
+    "x1": 201,
+    "y1": 223,
+    "x2": 227,
+    "y2": 273,
+    "conf": 0.428,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "boat",
+      "person",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001660_2_conf0.40_person.jpg",
+    "img_id": "2008_001660",
+    "box_idx": 2,
+    "x1": 0,
+    "y1": 51,
+    "x2": 268,
+    "y2": 367,
+    "conf": 0.396,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "sofa",
+      "person",
+      "person",
+      "dog"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001660_3_conf0.30_person.jpg",
+    "img_id": "2008_001660",
+    "box_idx": 3,
+    "x1": 72,
+    "y1": 39,
+    "x2": 306,
+    "y2": 248,
+    "conf": 0.303,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "sofa",
+      "person",
+      "person",
+      "dog"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001681_3_conf0.27_person.jpg",
+    "img_id": "2008_001681",
+    "box_idx": 3,
+    "x1": 89,
+    "y1": 242,
+    "x2": 103,
+    "y2": 265,
+    "conf": 0.268,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "bus",
+      "car",
+      "car",
+      "car",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001715_0_conf0.48_chair.jpg",
+    "img_id": "2008_001715",
+    "box_idx": 0,
+    "x1": 99,
+    "y1": 1,
+    "x2": 211,
+    "y2": 176,
+    "conf": 0.484,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "chair"
+    ],
+    "true_label": "chair"
+  },
+  {
+    "filename": "2008_001723_4_conf0.38_sofa.jpg",
+    "img_id": "2008_001723",
+    "box_idx": 4,
+    "x1": 389,
+    "y1": 235,
+    "x2": 499,
+    "y2": 309,
+    "conf": 0.379,
+    "yolo_pred": "sofa",
+    "gt_classes": [
+      "diningtable",
+      "diningtable",
+      "chair",
+      "chair",
+      "chair",
+      "chair"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001723_5_conf0.33_chair.jpg",
+    "img_id": "2008_001723",
+    "box_idx": 5,
+    "x1": 134,
+    "y1": 207,
+    "x2": 199,
+    "y2": 321,
+    "conf": 0.326,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "diningtable",
+      "diningtable",
+      "chair",
+      "chair",
+      "chair",
+      "chair"
+    ],
+    "true_label": "chair"
+  },
+  {
+    "filename": "2008_001723_6_conf0.32_chair.jpg",
+    "img_id": "2008_001723",
+    "box_idx": 6,
+    "x1": 471,
+    "y1": 218,
+    "x2": 499,
+    "y2": 331,
+    "conf": 0.322,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "diningtable",
+      "diningtable",
+      "chair",
+      "chair",
+      "chair",
+      "chair"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001730_0_conf0.40_person.jpg",
+    "img_id": "2008_001730",
+    "box_idx": 0,
+    "x1": 178,
+    "y1": 109,
+    "x2": 355,
+    "y2": 374,
+    "conf": 0.398,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001757_4_conf0.31_bottle.jpg",
+    "img_id": "2008_001757",
+    "box_idx": 4,
+    "x1": 283,
+    "y1": 66,
+    "x2": 331,
+    "y2": 116,
+    "conf": 0.314,
+    "yolo_pred": "bottle",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001764_3_conf0.43_chair.jpg",
+    "img_id": "2008_001764",
+    "box_idx": 3,
+    "x1": 404,
+    "y1": 229,
+    "x2": 457,
+    "y2": 320,
+    "conf": 0.429,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "chair",
+      "person",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001764_4_conf0.40_person.jpg",
+    "img_id": "2008_001764",
+    "box_idx": 4,
+    "x1": 182,
+    "y1": 127,
+    "x2": 266,
+    "y2": 310,
+    "conf": 0.398,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "chair",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001765_4_conf0.32_aeroplane.jpg",
+    "img_id": "2008_001765",
+    "box_idx": 4,
+    "x1": 0,
+    "y1": 0,
+    "x2": 375,
+    "y2": 61,
+    "conf": 0.321,
+    "yolo_pred": "aeroplane",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001772_3_conf0.31_chair.jpg",
+    "img_id": "2008_001772",
+    "box_idx": 3,
+    "x1": 78,
+    "y1": 256,
+    "x2": 158,
+    "y2": 332,
+    "conf": 0.314,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "chair",
+      "tvmonitor",
+      "chair"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001773_4_conf0.36_chair.jpg",
+    "img_id": "2008_001773",
+    "box_idx": 4,
+    "x1": 0,
+    "y1": 174,
+    "x2": 227,
+    "y2": 374,
+    "conf": 0.362,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "person",
+      "diningtable",
+      "person",
+      "person",
+      "person",
+      "chair",
+      "chair",
+      "chair"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001773_5_conf0.31_chair.jpg",
+    "img_id": "2008_001773",
+    "box_idx": 5,
+    "x1": 0,
+    "y1": 263,
+    "x2": 86,
+    "y2": 374,
+    "conf": 0.308,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "person",
+      "diningtable",
+      "person",
+      "person",
+      "person",
+      "chair",
+      "chair",
+      "chair"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001773_6_conf0.30_chair.jpg",
+    "img_id": "2008_001773",
+    "box_idx": 6,
+    "x1": 191,
+    "y1": 306,
+    "x2": 322,
+    "y2": 374,
+    "conf": 0.302,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "person",
+      "diningtable",
+      "person",
+      "person",
+      "person",
+      "chair",
+      "chair",
+      "chair"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001782_4_conf0.44_bicycle.jpg",
+    "img_id": "2008_001782",
+    "box_idx": 4,
+    "x1": 398,
+    "y1": 59,
+    "x2": 420,
+    "y2": 96,
+    "conf": 0.444,
+    "yolo_pred": "bicycle",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001784_7_conf0.44_person.jpg",
+    "img_id": "2008_001784",
+    "box_idx": 7,
+    "x1": 24,
+    "y1": 65,
+    "x2": 294,
+    "y2": 373,
+    "conf": 0.439,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "pottedplant",
+      "pottedplant"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001784_8_conf0.39_pottedplant.jpg",
+    "img_id": "2008_001784",
+    "box_idx": 8,
+    "x1": 0,
+    "y1": 178,
+    "x2": 55,
+    "y2": 269,
+    "conf": 0.391,
+    "yolo_pred": "pottedplant",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "pottedplant",
+      "pottedplant"
+    ],
+    "true_label": "pottedplant"
+  },
+  {
+    "filename": "2008_001784_9_conf0.33_person.jpg",
+    "img_id": "2008_001784",
+    "box_idx": 9,
+    "x1": 438,
+    "y1": 173,
+    "x2": 499,
+    "y2": 374,
+    "conf": 0.33,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "pottedplant",
+      "pottedplant"
+    ],
+    "true_label": "pottedplant"
+  },
+  {
+    "filename": "2008_001792_1_conf0.35_sofa.jpg",
+    "img_id": "2008_001792",
+    "box_idx": 1,
+    "x1": 0,
+    "y1": 145,
+    "x2": 474,
+    "y2": 373,
+    "conf": 0.346,
+    "yolo_pred": "sofa",
+    "gt_classes": [
+      "cat",
+      "cat"
+    ],
+    "true_label": "cat"
+  },
+  {
+    "filename": "2008_001792_2_conf0.29_dog.jpg",
+    "img_id": "2008_001792",
+    "box_idx": 2,
+    "x1": 0,
+    "y1": 266,
+    "x2": 111,
+    "y2": 374,
+    "conf": 0.289,
+    "yolo_pred": "dog",
+    "gt_classes": [
+      "cat",
+      "cat"
+    ],
+    "true_label": "dog"
+  },
+  {
+    "filename": "2008_001802_2_conf0.46_person.jpg",
+    "img_id": "2008_001802",
+    "box_idx": 2,
+    "x1": 445,
+    "y1": 143,
+    "x2": 499,
+    "y2": 334,
+    "conf": 0.46,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001802_3_conf0.43_person.jpg",
+    "img_id": "2008_001802",
+    "box_idx": 3,
+    "x1": 362,
+    "y1": 86,
+    "x2": 492,
+    "y2": 334,
+    "conf": 0.434,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001808_1_conf0.35_person.jpg",
+    "img_id": "2008_001808",
+    "box_idx": 1,
+    "x1": 193,
+    "y1": 67,
+    "x2": 342,
+    "y2": 197,
+    "conf": 0.354,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001812_0_conf0.48_dog.jpg",
+    "img_id": "2008_001812",
+    "box_idx": 0,
+    "x1": 192,
+    "y1": 127,
+    "x2": 336,
+    "y2": 241,
+    "conf": 0.479,
+    "yolo_pred": "dog",
+    "gt_classes": [
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001825_13_conf0.44_person.jpg",
+    "img_id": "2008_001825",
+    "box_idx": 13,
+    "x1": 228,
+    "y1": 102,
+    "x2": 262,
+    "y2": 173,
+    "conf": 0.442,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001825_14_conf0.27_person.jpg",
+    "img_id": "2008_001825",
+    "box_idx": 14,
+    "x1": 378,
+    "y1": 68,
+    "x2": 418,
+    "y2": 175,
+    "conf": 0.271,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001825_15_conf0.27_person.jpg",
+    "img_id": "2008_001825",
+    "box_idx": 15,
+    "x1": 108,
+    "y1": 130,
+    "x2": 170,
+    "y2": 203,
+    "conf": 0.266,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001830_3_conf0.38_car.jpg",
+    "img_id": "2008_001830",
+    "box_idx": 3,
+    "x1": 285,
+    "y1": 160,
+    "x2": 305,
+    "y2": 175,
+    "conf": 0.38,
+    "yolo_pred": "car",
+    "gt_classes": [
+      "car",
+      "car",
+      "car"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001838_4_conf0.43_sofa.jpg",
+    "img_id": "2008_001838",
+    "box_idx": 4,
+    "x1": 0,
+    "y1": 164,
+    "x2": 458,
+    "y2": 375,
+    "conf": 0.434,
+    "yolo_pred": "sofa",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "sofa"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001841_3_conf0.44_person.jpg",
+    "img_id": "2008_001841",
+    "box_idx": 3,
+    "x1": 60,
+    "y1": 0,
+    "x2": 477,
+    "y2": 374,
+    "conf": 0.443,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "chair"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001841_4_conf0.44_chair.jpg",
+    "img_id": "2008_001841",
+    "box_idx": 4,
+    "x1": 40,
+    "y1": 161,
+    "x2": 130,
+    "y2": 374,
+    "conf": 0.438,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "person",
+      "chair"
+    ],
+    "true_label": "chair"
+  },
+  {
+    "filename": "2008_001862_5_conf0.46_chair.jpg",
+    "img_id": "2008_001862",
+    "box_idx": 5,
+    "x1": 17,
+    "y1": 378,
+    "x2": 367,
+    "y2": 499,
+    "conf": 0.461,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "pottedplant",
+      "dog",
+      "chair",
+      "person",
+      "bottle"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001862_6_conf0.36_chair.jpg",
+    "img_id": "2008_001862",
+    "box_idx": 6,
+    "x1": 159,
+    "y1": 378,
+    "x2": 367,
+    "y2": 499,
+    "conf": 0.362,
+    "yolo_pred": "chair",
+    "gt_classes": [
+      "pottedplant",
+      "dog",
+      "chair",
+      "person",
+      "bottle"
+    ],
+    "true_label": "ambiguous"
+  },
+  {
+    "filename": "2008_001862_7_conf0.30_pottedplant.jpg",
+    "img_id": "2008_001862",
+    "box_idx": 7,
+    "x1": 0,
+    "y1": 38,
+    "x2": 61,
+    "y2": 310,
+    "conf": 0.305,
+    "yolo_pred": "pottedplant",
+    "gt_classes": [
+      "pottedplant",
+      "dog",
+      "chair",
+      "person",
+      "bottle"
+    ],
+    "true_label": "pottedplant"
+  },
+  {
+    "filename": "2008_001863_2_conf0.46_person.jpg",
+    "img_id": "2008_001863",
+    "box_idx": 2,
+    "x1": 236,
+    "y1": 139,
+    "x2": 499,
+    "y2": 329,
+    "conf": 0.457,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001863_3_conf0.43_person.jpg",
+    "img_id": "2008_001863",
+    "box_idx": 3,
+    "x1": 83,
+    "y1": 140,
+    "x2": 499,
+    "y2": 375,
+    "conf": 0.428,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001867_5_conf0.27_car.jpg",
+    "img_id": "2008_001867",
+    "box_idx": 5,
+    "x1": 106,
+    "y1": 97,
+    "x2": 500,
+    "y2": 316,
+    "conf": 0.27,
+    "yolo_pred": "car",
+    "gt_classes": [
+      "car",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "car"
+  },
+  {
+    "filename": "2008_001899_1_conf0.44_person.jpg",
+    "img_id": "2008_001899",
+    "box_idx": 1,
+    "x1": 76,
+    "y1": 65,
+    "x2": 270,
+    "y2": 285,
+    "conf": 0.442,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001909_5_conf0.44_person.jpg",
+    "img_id": "2008_001909",
+    "box_idx": 5,
+    "x1": 173,
+    "y1": 166,
+    "x2": 194,
+    "y2": 221,
+    "conf": 0.444,
+    "yolo_pred": "person",
+    "gt_classes": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "true_label": "person"
+  },
+  {
+    "filename": "2008_001910_3_conf0.35_diningtable.jpg",
+    "img_id": "2008_001910",
+    "box_idx": 3,
+    "x1": 0,
+    "y1": 222,
+    "x2": 107,
+    "y2": 482,
+    "conf": 0.355,
+    "yolo_pred": "diningtable",
+    "gt_classes": [
+      "bottle",
+      "person",
+      "chair",
+      "chair",
+      "chair"
+    ],
+    "true_label": "ambiguous"
+  }
+]

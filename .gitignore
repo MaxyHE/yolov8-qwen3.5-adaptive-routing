@@ -12,6 +12,10 @@ data/
 runs/
 train13/
 
+# LoRA消融checkpoint（权重文件体积大）
+ablation_lora/*/
+ablation_lora/r*/
+
 # 本地分析产物
 error_crops/
 _archive/
