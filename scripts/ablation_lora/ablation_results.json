@@ -1,0 +1,32 @@
+{
+  "r8_qv": {
+    "lora_r": 8,
+    "target_modules": "q_proj+v_proj",
+    "acc": 90.37
+  },
+  "r4_qv": {
+    "lora_r": 4,
+    "target_modules": "q_proj+v_proj",
+    "acc": 92.51
+  },
+  "r16_qv": {
+    "lora_r": 16,
+    "target_modules": "q_proj+v_proj",
+    "acc": 87.7
+  },
+  "r8_qvk": {
+    "lora_r": 8,
+    "target_modules": "q_proj+v_proj+k_proj",
+    "acc": 92.51
+  },
+  "r4_qvk": {
+    "lora_r": 4,
+    "target_modules": "q_proj+v_proj+k_proj",
+    "acc": 87.7
+  },
+  "r16_qvk": {
+    "lora_r": 16,
+    "target_modules": "q_proj+v_proj+k_proj",
+    "acc": 91.98
+  }
+}

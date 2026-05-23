@@ -1,0 +1,123 @@
+{
+  "vlm": "Qwen3.5-0.8B-LoRA",
+  "vram_gb": 1.68,
+  "num_images": 500,
+  "avg_yolo_ms_per_image": 11.0,
+  "avg_vlm_ms_per_crop": 1111.5,
+  "p95_vlm_ms_per_crop": 1376.3,
+  "avg_boxes_per_image": 2.7,
+  "sweep": [
+    {
+      "threshold": 0.3,
+      "acc": 88.61,
+      "vlm_call_rate": 4.2,
+      "vlm_calls": 56,
+      "total_boxes": 1334,
+      "est_total_ms_per_image": 135.6
+    },
+    {
+      "threshold": 0.35,
+      "acc": 89.13,
+      "vlm_call_rate": 8.0,
+      "vlm_calls": 107,
+      "total_boxes": 1334,
+      "est_total_ms_per_image": 248.2
+    },
+    {
+      "threshold": 0.4,
+      "acc": 89.43,
+      "vlm_call_rate": 12.1,
+      "vlm_calls": 161,
+      "total_boxes": 1334,
+      "est_total_ms_per_image": 369.8
+    },
+    {
+      "threshold": 0.45,
+      "acc": 90.03,
+      "vlm_call_rate": 16.2,
+      "vlm_calls": 216,
+      "total_boxes": 1334,
+      "est_total_ms_per_image": 491.4
+    },
+    {
+      "threshold": 0.5,
+      "acc": 90.48,
+      "vlm_call_rate": 20.1,
+      "vlm_calls": 268,
+      "total_boxes": 1334,
+      "est_total_ms_per_image": 607.1
+    },
+    {
+      "threshold": 0.55,
+      "acc": 90.93,
+      "vlm_call_rate": 24.2,
+      "vlm_calls": 323,
+      "total_boxes": 1334,
+      "est_total_ms_per_image": 728.6
+    },
+    {
+      "threshold": 0.6,
+      "acc": 91.38,
+      "vlm_call_rate": 27.7,
+      "vlm_calls": 369,
+      "total_boxes": 1334,
+      "est_total_ms_per_image": 832.4
+    },
+    {
+      "threshold": 0.65,
+      "acc": 91.53,
+      "vlm_call_rate": 31.3,
+      "vlm_calls": 417,
+      "total_boxes": 1334,
+      "est_total_ms_per_image": 939.2
+    },
+    {
+      "threshold": 0.7,
+      "acc": 92.2,
+      "vlm_call_rate": 36.3,
+      "vlm_calls": 484,
+      "total_boxes": 1334,
+      "est_total_ms_per_image": 1087.5
+    },
+    {
+      "threshold": 0.75,
+      "acc": 92.65,
+      "vlm_call_rate": 41.7,
+      "vlm_calls": 556,
+      "total_boxes": 1334,
+      "est_total_ms_per_image": 1247.6
+    },
+    {
+      "threshold": 0.8,
+      "acc": 93.03,
+      "vlm_call_rate": 48.6,
+      "vlm_calls": 648,
+      "total_boxes": 1334,
+      "est_total_ms_per_image": 1452.2
+    },
+    {
+      "threshold": 0.85,
+      "acc": 92.95,
+      "vlm_call_rate": 58.5,
+      "vlm_calls": 780,
+      "total_boxes": 1334,
+      "est_total_ms_per_image": 1745.8
+    },
+    {
+      "threshold": 0.9,
+      "acc": 93.1,
+      "vlm_call_rate": 75.0,
+      "vlm_calls": 1000,
+      "total_boxes": 1334,
+      "est_total_ms_per_image": 2235.1
+    },
+    {
+      "threshold": 0.95,
+      "acc": 93.18,
+      "vlm_call_rate": 95.7,
+      "vlm_calls": 1276,
+      "total_boxes": 1334,
+      "est_total_ms_per_image": 2849.0
+    }
+  ]
+}

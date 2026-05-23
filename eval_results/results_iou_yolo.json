@@ -1,0 +1,117 @@
+{
+  "mode": "yolo",
+  "det_conf": 0.25,
+  "route_conf": 0.5,
+  "iou_threshold": 0.5,
+  "gt_total": 1337,
+  "pred_total": 1335,
+  "matched_total": 1018,
+  "det_precision": 76.25,
+  "det_recall": 76.14,
+  "matched_cls_acc": 94.6,
+  "e2e_precision": 72.13,
+  "e2e_recall": 72.03,
+  "routed_total": 0,
+  "routed_match_total": 0,
+  "routed_match_cls_acc": 0,
+  "low_conf_match_total": 113,
+  "low_conf_match_cls_acc": 82.3,
+  "avg_vlm_ms_per_crop": 0,
+  "vram_gb": null,
+  "matched_pair_confusion": {
+    "tvmonitor": {
+      "tvmonitor": 10,
+      "cat": 1
+    },
+    "train": {
+      "train": 9,
+      "boat": 1
+    },
+    "cow": {
+      "cow": 11
+    },
+    "aeroplane": {
+      "aeroplane": 11,
+      "boat": 1
+    },
+    "person": {
+      "person": 583,
+      "dog": 1,
+      "chair": 3,
+      "sofa": 3,
+      "pottedplant": 1
+    },
+    "car": {
+      "car": 60,
+      "aeroplane": 1,
+      "motorbike": 1
+    },
+    "bus": {
+      "bus": 3,
+      "car": 1
+    },
+    "bottle": {
+      "bottle": 34,
+      "person": 1
+    },
+    "chair": {
+      "chair": 58,
+      "person": 3,
+      "sofa": 3
+    },
+    "diningtable": {
+      "diningtable": 11
+    },
+    "bird": {
+      "bird": 18,
+      "person": 3,
+      "horse": 1
+    },
+    "cat": {
+      "cat": 25,
+      "cow": 1,
+      "person": 1,
+      "dog": 1
+    },
+    "dog": {
+      "dog": 29,
+      "person": 6,
+      "sofa": 1
+    },
+    "horse": {
+      "horse": 12,
+      "cow": 1,
+      "person": 2
+    },
+    "motorbike": {
+      "motorbike": 19,
+      "bicycle": 1,
+      "person": 3
+    },
+    "sheep": {
+      "sheep": 6,
+      "horse": 2,
+      "boat": 1
+    },
+    "bicycle": {
+      "bicycle": 15,
+      "person": 1,
+      "motorbike": 1
+    },
+    "sofa": {
+      "chair": 3,
+      "sofa": 13,
+      "person": 1,
+      "car": 1
+    },
+    "boat": {
+      "boat": 24,
+      "pottedplant": 1,
+      "aeroplane": 1
+    },
+    "pottedplant": {
+      "pottedplant": 12,
+      "chair": 1
+    }
+  }
+}

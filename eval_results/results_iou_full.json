@@ -1,0 +1,117 @@
+{
+  "mode": "full",
+  "det_conf": 0.25,
+  "route_conf": 0.5,
+  "iou_threshold": 0.5,
+  "gt_total": 1337,
+  "pred_total": 1334,
+  "matched_total": 1018,
+  "det_precision": 76.31,
+  "det_recall": 76.14,
+  "matched_cls_acc": 82.71,
+  "e2e_precision": 63.12,
+  "e2e_recall": 62.98,
+  "routed_total": 1334,
+  "routed_match_total": 1018,
+  "routed_match_cls_acc": 82.71,
+  "low_conf_match_total": 113,
+  "low_conf_match_cls_acc": 75.22,
+  "avg_vlm_ms_per_crop": 522.4,
+  "vram_gb": 1.62,
+  "matched_pair_confusion": {
+    "tvmonitor": {
+      "tvmonitor": 10,
+      "person": 1
+    },
+    "train": {
+      "train": 9,
+      "person": 2
+    },
+    "horse": {
+      "cow": 2,
+      "horse": 12,
+      "bicycle": 1
+    },
+    "sheep": {
+      "cow": 1,
+      "sheep": 4
+    },
+    "aeroplane": {
+      "aeroplane": 12
+    },
+    "person": {
+      "person": 513,
+      "car": 6,
+      "boat": 8,
+      "bicycle": 11,
+      "bottle": 2,
+      "motorbike": 1,
+      "horse": 2,
+      "dog": 1,
+      "chair": 7,
+      "aeroplane": 1
+    },
+    "car": {
+      "car": 54
+    },
+    "bus": {
+      "bus": 3,
+      "car": 1
+    },
+    "bottle": {
+      "bottle": 32,
+      "person": 1,
+      "boat": 1
+    },
+    "diningtable": {
+      "person": 23,
+      "chair": 13,
+      "diningtable": 11
+    },
+    "chair": {
+      "chair": 37,
+      "person": 6
+    },
+    "bird": {
+      "bird": 18
+    },
+    "sofa": {
+      "cat": 6,
+      "dog": 7,
+      "chair": 7,
+      "sofa": 20,
+      "person": 38
+    },
+    "dog": {
+      "dog": 23,
+      "sheep": 1,
+      "person": 2,
+      "horse": 1
+    },
+    "cat": {
+      "cat": 19
+    },
+    "cow": {
+      "cow": 10,
+      "sheep": 1
+    },
+    "motorbike": {
+      "motorbike": 19,
+      "person": 15
+    },
+    "bicycle": {
+      "bicycle": 4,
+      "motorbike": 1,
+      "car": 1
+    },
+    "boat": {
+      "boat": 18
+    },
+    "pottedplant": {
+      "pottedplant": 14,
+      "cat": 1,
+      "person": 3,
+      "chair": 1
+    }
+  }
+}

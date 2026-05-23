@@ -223,6 +223,8 @@ ABLATION_CONFIGS = [
     {"lora_r": 4,  "target_modules": ["q_proj", "v_proj"],           "name": "r4_qv"},
     {"lora_r": 16, "target_modules": ["q_proj", "v_proj"],           "name": "r16_qv"},
     {"lora_r": 8,  "target_modules": ["q_proj", "v_proj", "k_proj"], "name": "r8_qvk"},
+    {"lora_r": 4,  "target_modules": ["q_proj", "v_proj", "k_proj"], "name": "r4_qvk"},
+    {"lora_r": 16, "target_modules": ["q_proj", "v_proj", "k_proj"], "name": "r16_qvk"},
 ]
 
 

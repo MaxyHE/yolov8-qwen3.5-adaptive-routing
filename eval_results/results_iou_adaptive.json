@@ -1,0 +1,121 @@
+{
+  "mode": "adaptive",
+  "det_conf": 0.25,
+  "route_conf": 0.5,
+  "iou_threshold": 0.5,
+  "gt_total": 1337,
+  "pred_total": 1334,
+  "matched_total": 1018,
+  "det_precision": 76.31,
+  "det_recall": 76.14,
+  "matched_cls_acc": 93.81,
+  "e2e_precision": 71.59,
+  "e2e_recall": 71.43,
+  "routed_total": 268,
+  "routed_match_total": 113,
+  "routed_match_cls_acc": 75.22,
+  "low_conf_match_total": 113,
+  "low_conf_match_cls_acc": 75.22,
+  "avg_vlm_ms_per_crop": 522.9,
+  "vram_gb": 1.62,
+  "matched_pair_confusion": {
+    "tvmonitor": {
+      "tvmonitor": 10,
+      "person": 1
+    },
+    "train": {
+      "train": 9
+    },
+    "cow": {
+      "cow": 11
+    },
+    "aeroplane": {
+      "aeroplane": 11
+    },
+    "person": {
+      "person": 580,
+      "car": 1,
+      "dog": 1,
+      "boat": 1,
+      "chair": 4,
+      "bottle": 1,
+      "sofa": 3,
+      "horse": 1,
+      "aeroplane": 1
+    },
+    "car": {
+      "car": 59,
+      "aeroplane": 1,
+      "motorbike": 1
+    },
+    "bus": {
+      "bus": 3,
+      "car": 1
+    },
+    "bottle": {
+      "bottle": 33,
+      "person": 1,
+      "boat": 1
+    },
+    "chair": {
+      "chair": 51,
+      "person": 3,
+      "sofa": 1
+    },
+    "diningtable": {
+      "diningtable": 11,
+      "chair": 4,
+      "person": 1
+    },
+    "bird": {
+      "bird": 18,
+      "horse": 1,
+      "person": 1
+    },
+    "cat": {
+      "cat": 24,
+      "cow": 1,
+      "person": 1,
+      "dog": 1
+    },
+    "dog": {
+      "dog": 29,
+      "person": 5
+    },
+    "horse": {
+      "horse": 12,
+      "cow": 1,
+      "person": 1
+    },
+    "motorbike": {
+      "motorbike": 19,
+      "bicycle": 1,
+      "person": 2
+    },
+    "sheep": {
+      "sheep": 6,
+      "horse": 1
+    },
+    "bicycle": {
+      "bicycle": 15,
+      "motorbike": 1
+    },
+    "sofa": {
+      "chair": 5,
+      "sofa": 16,
+      "person": 7,
+      "cat": 1,
+      "car": 1
+    },
+    "boat": {
+      "boat": 25,
+      "pottedplant": 1
+    },
+    "pottedplant": {
+      "cat": 1,
+      "pottedplant": 13,
+      "person": 1,
+      "chair": 1
+    }
+  }
+}
